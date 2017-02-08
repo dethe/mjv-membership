@@ -26,28 +26,64 @@
             <aside>
                 <button type="button" id="add-member" class="bg-orange">➕ Add Member</button>
             </aside>
-            <section>
+            <section id="display">
                 <form>
                     <input type="hidden" id="id-display" />
-                    <input type="hidden" id="id-edit" />
                     <p>
                         <label>First:</label>
                         <output id="first-display"></output>
-                        <input type="text" id="first-edit" placeholder="Tyro" class="hidden" />
                     </p>
                     <p>
                         <label>Last:</label>
                         <output id="last-display"></output>
-                        <input type="text" id="last-edit" placeholder="Dancer" class="hidden" />
+                    </p>
+                    <p>
+                        <label>Member Since:</label>
+                        <output id="memberSince-display" data-type="date"></output>
+                    </p>
+                    <p>
+                        <label>Credits:</label>
+                        <output id="credits-display"></output>
+                    </p>
+                    <p>
+                        <label>Payment for tonight:</label>
+                        <fieldset>
+                            <label>Member $12 <input type="radio" name="payment" value="member" checked></label><br />
+                            <label>Membership + Member $17 <input type="radio" name="payment" value="membershipplus"></label><br />
+                            <label>Credit <input type="radio" name="payment" value="credit"></label><br />
+                            <label>Crew <input type="radio" name="payment" value="crew"></label><br />
+                            <label>Admit One <input type="radio" name="payment" value="admitone"></label><br />
+                            <label>Comp <input type="radio" name="payment" value="comp"></label><br />
+                        </fieldset>
+                        <button class="bg-green">Add Guest</button><br />
+                        <button class="bg-green">Purchase 5 Session for $50</button>
+                    </p>
+                    <p>
+                        <label>Total:</label>
+                        <output id="payment_total"></output>
+                    </p>
+                    <p>
+                        <button type="button" id="edit-display" class="bg-teal">Edit Member</button>
+                    </p>
+                </form>
+            </section>
+            <section id="edit" class="hidden">
+                <form>
+                    <input type="hidden" id="id-edit" />
+                    <p>
+                        <label>First:</label>
+                        <input type="text" id="first-edit" placeholder="Tyro" />
+                    </p>
+                    <p>
+                        <label>Last:</label>
+                        <input type="text" id="last-edit" placeholder="Dancer" />
                     </p>
                     <p>
                         <label>Email:</label>
-                        <output id="email-display"></output>
-                        <input type="email" id="email-edit" placeholder="tyro@vancouvermodernjive.com" class="hidden" />
+                        <input type="email" id="email-edit" placeholder="tyro@vancouvermodernjive.com" />
                     </p>
                     <p>
-                        <button type="button" id="edit-display" class="hidden bg-teal">Edit Member</button>
-                        <button type="button" id="save-edit" class="hidden bg-aqua">Save Member</button>
+                        <button type="button" id="save-edit" class="bg-aqua">Save Member</button>
                     </p>
                 </form>
             </section>
@@ -55,6 +91,7 @@
     </main>
     <script src="lib/awesomplete.min.js"></script>
     <script src="lib/stretchy.js"></script>
+    <script src="lib/pretty-date.js"></script>
     <script src="js/members.js"></script>
 	<script src="js/app.js"></script>
 </body>
