@@ -1,1 +1,5002 @@
-var members = [{"email":"chloe.clark@example.com","id":"81aae6","first":"chloe","last":"clark"},{"email":"matthew.lavoie@example.com","id":"19494c","first":"matthew","last":"lavoie"},{"email":"elliot.claire@example.com","id":"3c747a","first":"elliot","last":"claire"},{"email":"ava.chu@example.com","id":"4139d","first":"ava","last":"chu"},{"email":"amelia.tremblay@example.com","id":"24c037","first":"amelia","last":"tremblay"},{"email":"marilou.ambrose@example.com","id":"eb2b87","first":"marilou","last":"ambrose"},{"email":"gabrielle.addy@example.com","id":"41ba1a","first":"gabrielle","last":"addy"},{"email":"james.macdonald@example.com","id":"c76529","first":"james","last":"macdonald"},{"email":"daniel.white@example.com","id":"4f9833","first":"daniel","last":"white"},{"email":"florence.lévesque@example.com","id":"6b08f3","first":"florence","last":"lévesque"},{"email":"brielle.young@example.com","id":"4a9b35","first":"brielle","last":"young"},{"email":"rose.addy@example.com","id":"5ea8a6","first":"rose","last":"addy"},{"email":"zackary.addy@example.com","id":"77c6b2","first":"zackary","last":"addy"},{"email":"laurie.ma@example.com","id":"93fc4c","first":"laurie","last":"ma"},{"email":"leo.novak@example.com","id":"420318","first":"leo","last":"novak"},{"email":"daniel.denys@example.com","id":"ffe61c","first":"daniel","last":"denys"},{"email":"blake.liu@example.com","id":"3da1ec","first":"blake","last":"liu"},{"email":"arthur.bouchard@example.com","id":"385603","first":"arthur","last":"bouchard"},{"email":"jeremy.harris@example.com","id":"b6959e","first":"jeremy","last":"harris"},{"email":"emma.liu@example.com","id":"2a6c72","first":"emma","last":"liu"},{"email":"jasmine.fortin@example.com","id":"56b0d5","first":"jasmine","last":"fortin"},{"email":"philippe.ambrose@example.com","id":"ed53e8","first":"philippe","last":"ambrose"},{"email":"charlotte.andersen@example.com","id":"a6c017","first":"charlotte","last":"andersen"},{"email":"philip.lam@example.com","id":"c4b519","first":"philip","last":"lam"},{"email":"william.addy@example.com","id":"8b4864","first":"william","last":"addy"},{"email":"avery.miller@example.com","id":"227813","first":"avery","last":"miller"},{"email":"charlotte.wilson@example.com","id":"84ef41","first":"charlotte","last":"wilson"},{"email":"harper.williams@example.com","id":"ce0bcd","first":"harper","last":"williams"},{"email":"maeva.lo@example.com","id":"15a263","first":"maeva","last":"lo"},{"email":"elliot.lévesque@example.com","id":"c7203e","first":"elliot","last":"lévesque"},{"email":"charlie.taylor@example.com","id":"2c91f5","first":"charlie","last":"taylor"},{"email":"daniel.patel@example.com","id":"d98c98","first":"daniel","last":"patel"},{"email":"bently.lévesque@example.com","id":"8b9451","first":"bently","last":"lévesque"},{"email":"owen.tremblay@example.com","id":"1cb6ff","first":"owen","last":"tremblay"},{"email":"lea.martin@example.com","id":"483f","first":"lea","last":"martin"},{"email":"benjamin.bélanger@example.com","id":"fc2422","first":"benjamin","last":"bélanger"},{"email":"owen.patel@example.com","id":"bd02b","first":"owen","last":"patel"},{"email":"ethan.johnson@example.com","id":"c233f1","first":"ethan","last":"johnson"},{"email":"sofia.claire@example.com","id":"55a646","first":"sofia","last":"claire"},{"email":"marilou.fortin@example.com","id":"487b4d","first":"marilou","last":"fortin"},{"email":"alicia.novak@example.com","id":"a941ba","first":"alicia","last":"novak"},{"email":"daniel.park@example.com","id":"26cb47","first":"daniel","last":"park"},{"email":"clara.bélanger@example.com","id":"2f9a5f","first":"clara","last":"bélanger"},{"email":"mason.johnson@example.com","id":"c1e76c","first":"mason","last":"johnson"},{"email":"arnaud.campbell@example.com","id":"30517c","first":"arnaud","last":"campbell"},{"email":"chloe.bélanger@example.com","id":"5d60b5","first":"chloe","last":"bélanger"},{"email":"owen.thompson@example.com","id":"37c54f","first":"owen","last":"thompson"},{"email":"alexis.pelletier@example.com","id":"fa2983","first":"alexis","last":"pelletier"},{"email":"justine.mackay@example.com","id":"b82d4d","first":"justine","last":"mackay"},{"email":"melodie.roy@example.com","id":"182eeb","first":"melodie","last":"roy"},{"email":"matthew.ma@example.com","id":"eb12c0","first":"matthew","last":"ma"},{"email":"eva.andersen@example.com","id":"9bf998","first":"eva","last":"andersen"},{"email":"matthew.fortin@example.com","id":"66ad60","first":"matthew","last":"fortin"},{"email":"lily.lavoie@example.com","id":"9a61eb","first":"lily","last":"lavoie"},{"email":"emilie.brar@example.com","id":"84f937","first":"emilie","last":"brar"},{"email":"logan.lavoie@example.com","id":"5b9977","first":"logan","last":"lavoie"},{"email":"abigail.grewal@example.com","id":"eca407","first":"abigail","last":"grewal"},{"email":"jack.bélanger@example.com","id":"88c6bd","first":"jack","last":"bélanger"},{"email":"gabriel.novak@example.com","id":"90ba9d","first":"gabriel","last":"novak"},{"email":"etienne.abraham@example.com","id":"3746b","first":"etienne","last":"abraham"},{"email":"adam.ginnish@example.com","id":"1d7cfe","first":"adam","last":"ginnish"},{"email":"victor.macdonald@example.com","id":"e0978","first":"victor","last":"macdonald"},{"email":"zoe.williams@example.com","id":"b5680f","first":"zoe","last":"williams"},{"email":"zackary.gill@example.com","id":"3d255e","first":"zackary","last":"gill"},{"email":"maxime.jean-baptiste@example.com","id":"223cbc","first":"maxime","last":"jean-baptiste"},{"email":"chloe.côté@example.com","id":"ad7963","first":"chloe","last":"côté"},{"email":"victor.anderson@example.com","id":"991113","first":"victor","last":"anderson"},{"email":"charlotte.ambrose@example.com","id":"6ee942","first":"charlotte","last":"ambrose"},{"email":"olivier.denys@example.com","id":"fa8076","first":"olivier","last":"denys"},{"email":"camille.patel@example.com","id":"4c6992","first":"camille","last":"patel"},{"email":"blake.lévesque@example.com","id":"eda23a","first":"blake","last":"lévesque"},{"email":"ava.slawa@example.com","id":"3885e4","first":"ava","last":"slawa"},{"email":"abigail.young@example.com","id":"a5b1c1","first":"abigail","last":"young"},{"email":"daniel.miller@example.com","id":"9f4482","first":"daniel","last":"miller"},{"email":"elizabeth.wilson@example.com","id":"87e96c","first":"elizabeth","last":"wilson"},{"email":"florence.kowalski@example.com","id":"39d3a0","first":"florence","last":"kowalski"},{"email":"rose.lam@example.com","id":"a2a3f7","first":"rose","last":"lam"},{"email":"eva.white@example.com","id":"c40040","first":"eva","last":"white"},{"email":"marilou.white@example.com","id":"ce1f73","first":"marilou","last":"white"},{"email":"adam.margaret@example.com","id":"e54ba6","first":"adam","last":"margaret"},{"email":"gabriel.grewal@example.com","id":"4345a1","first":"gabriel","last":"grewal"},{"email":"gabrielle.clark@example.com","id":"b658bc","first":"gabrielle","last":"clark"},{"email":"simon.lévesque@example.com","id":"261033","first":"simon","last":"lévesque"},{"email":"avery.gagnon@example.com","id":"42af71","first":"avery","last":"gagnon"},{"email":"jasmine.abraham@example.com","id":"5a8334","first":"jasmine","last":"abraham"},{"email":"jeanne.harcourt@example.com","id":"47229f","first":"jeanne","last":"harcourt"},{"email":"charlotte.mitchell@example.com","id":"783d6a","first":"charlotte","last":"mitchell"},{"email":"anthony.roy@example.com","id":"3bad27","first":"anthony","last":"roy"},{"email":"addison.brar@example.com","id":"cb6fa3","first":"addison","last":"brar"},{"email":"alexis.fortin@example.com","id":"823357","first":"alexis","last":"fortin"},{"email":"david.ambrose@example.com","id":"60bfe8","first":"david","last":"ambrose"},{"email":"jeremy.roy@example.com","id":"73bb3c","first":"jeremy","last":"roy"},{"email":"chloe.smith@example.com","id":"92e8d8","first":"chloe","last":"smith"},{"email":"justine.macdonald@example.com","id":"29cd69","first":"justine","last":"macdonald"},{"email":"alexander.lavoie@example.com","id":"8cb0b7","first":"alexander","last":"lavoie"},{"email":"oliver.gagnon@example.com","id":"1b37b8","first":"oliver","last":"gagnon"},{"email":"zachary.côté@example.com","id":"4e0b79","first":"zachary","last":"côté"},{"email":"noah.thompson@example.com","id":"1d507d","first":"noah","last":"thompson"},{"email":"james.slawa@example.com","id":"b8827c","first":"james","last":"slawa"},{"email":"owen.gauthier@example.com","id":"74124d","first":"owen","last":"gauthier"},{"email":"gabrielle.lavigne@example.com","id":"31550c","first":"gabrielle","last":"lavigne"},{"email":"nicolas.grewal@example.com","id":"63b558","first":"nicolas","last":"grewal"},{"email":"elliot.young@example.com","id":"400dbb","first":"elliot","last":"young"},{"email":"dominic.patel@example.com","id":"e22e1b","first":"dominic","last":"patel"},{"email":"amelia.anderson@example.com","id":"f352f5","first":"amelia","last":"anderson"},{"email":"simon.kowalski@example.com","id":"58214b","first":"simon","last":"kowalski"},{"email":"ryder.ambrose@example.com","id":"5aae73","first":"ryder","last":"ambrose"},{"email":"olivia.walker@example.com","id":"80192","first":"olivia","last":"walker"},{"email":"ryan.jean-baptiste@example.com","id":"4ff3c8","first":"ryan","last":"jean-baptiste"},{"email":"ryan.slawa@example.com","id":"de23be","first":"ryan","last":"slawa"},{"email":"adam.slawa@example.com","id":"401fba","first":"adam","last":"slawa"},{"email":"anthony.liu@example.com","id":"b7d7a6","first":"anthony","last":"liu"},{"email":"charlotte.chow@example.com","id":"ddff88","first":"charlotte","last":"chow"},{"email":"amelia.young@example.com","id":"f3ba95","first":"amelia","last":"young"},{"email":"gabrielle.abraham@example.com","id":"6477fc","first":"gabrielle","last":"abraham"},{"email":"mason.young@example.com","id":"306ace","first":"mason","last":"young"},{"email":"matthew.patel@example.com","id":"509500","first":"matthew","last":"patel"},{"email":"samuel.mackay@example.com","id":"52a60a","first":"samuel","last":"mackay"},{"email":"samuel.morin@example.com","id":"f35c8","first":"samuel","last":"morin"},{"email":"camille.bergeron@example.com","id":"cb3e8d","first":"camille","last":"bergeron"},{"email":"juliette.roy@example.com","id":"5a21f6","first":"juliette","last":"roy"},{"email":"addison.slawa@example.com","id":"677f43","first":"addison","last":"slawa"},{"email":"gabriel.taylor@example.com","id":"2c69be","first":"gabriel","last":"taylor"},{"email":"arnaud.morin@example.com","id":"87dd29","first":"arnaud","last":"morin"},{"email":"maeva.mitchell@example.com","id":"3a898e","first":"maeva","last":"mitchell"},{"email":"daniel.abraham@example.com","id":"cd1f59","first":"daniel","last":"abraham"},{"email":"alicia.jean-baptiste@example.com","id":"fd29dc","first":"alicia","last":"jean-baptiste"},{"email":"emma.chu@example.com","id":"e978a7","first":"emma","last":"chu"},{"email":"leanne.bélanger@example.com","id":"43b98d","first":"leanne","last":"bélanger"},{"email":"isabella.slawa@example.com","id":"a67955","first":"isabella","last":"slawa"},{"email":"james.chu@example.com","id":"e71ad0","first":"james","last":"chu"},{"email":"victor.liu@example.com","id":"1c407d","first":"victor","last":"liu"},{"email":"etienne.clark@example.com","id":"d6402a","first":"etienne","last":"clark"},{"email":"sarah.andersen@example.com","id":"f78a2","first":"sarah","last":"andersen"},{"email":"maeva.sirko@example.com","id":"e025ed","first":"maeva","last":"sirko"},{"email":"ryan.harris@example.com","id":"fdf9cd","first":"ryan","last":"harris"},{"email":"samuel.ambrose@example.com","id":"65680d","first":"samuel","last":"ambrose"},{"email":"alexis.gagné@example.com","id":"e2c5ba","first":"alexis","last":"gagné"},{"email":"beatrice.chan@example.com","id":"bf4ffd","first":"beatrice","last":"chan"},{"email":"sofia.ma@example.com","id":"e9f2aa","first":"sofia","last":"ma"},{"email":"lucas.miller@example.com","id":"4b3759","first":"lucas","last":"miller"},{"email":"annabelle.mitchell@example.com","id":"93b0cb","first":"annabelle","last":"mitchell"},{"email":"eva.gagnon@example.com","id":"9efe91","first":"eva","last":"gagnon"},{"email":"avery.gagnon@example.com","id":"9e1a98","first":"avery","last":"gagnon"},{"email":"olivia.fortin@example.com","id":"ccf922","first":"olivia","last":"fortin"},{"email":"dominic.mackay@example.com","id":"53bd96","first":"dominic","last":"mackay"},{"email":"florence.lavigne@example.com","id":"27d2bb","first":"florence","last":"lavigne"},{"email":"oliver.wilson@example.com","id":"b299fe","first":"oliver","last":"wilson"},{"email":"philip.johnson@example.com","id":"53882e","first":"philip","last":"johnson"},{"email":"abigail.ross@example.com","id":"2bb175","first":"abigail","last":"ross"},{"email":"owen.lévesque@example.com","id":"176a2","first":"owen","last":"lévesque"},{"email":"nicolas.harris@example.com","id":"3b2a5f","first":"nicolas","last":"harris"},{"email":"juliette.gagnon@example.com","id":"213788","first":"juliette","last":"gagnon"},{"email":"bently.roy@example.com","id":"42ab0e","first":"bently","last":"roy"},{"email":"justine.pelletier@example.com","id":"978a8a","first":"justine","last":"pelletier"},{"email":"lucas.chow@example.com","id":"67d597","first":"lucas","last":"chow"},{"email":"philip.gagné@example.com","id":"a9274d","first":"philip","last":"gagné"},{"email":"ariane.jones@example.com","id":"788229","first":"ariane","last":"jones"},{"email":"ethan.anderson@example.com","id":"e59507","first":"ethan","last":"anderson"},{"email":"noémie.wong@example.com","id":"aff734","first":"noémie","last":"wong"},{"email":"megan.knight@example.com","id":"67d13a","first":"megan","last":"knight"},{"email":"daniel.campbell@example.com","id":"1b9496","first":"daniel","last":"campbell"},{"email":"noémie.roy@example.com","id":"42b422","first":"noémie","last":"roy"},{"email":"annabelle.abraham@example.com","id":"912b8a","first":"annabelle","last":"abraham"},{"email":"emilie.wong@example.com","id":"756fad","first":"emilie","last":"wong"},{"email":"noémie.addy@example.com","id":"714bbc","first":"noémie","last":"addy"},{"email":"juliette.chan@example.com","id":"860d66","first":"juliette","last":"chan"},{"email":"arnaud.bergeron@example.com","id":"81280c","first":"arnaud","last":"bergeron"},{"email":"philippe.chan@example.com","id":"fc0688","first":"philippe","last":"chan"},{"email":"camille.chow@example.com","id":"63d3a","first":"camille","last":"chow"},{"email":"hannah.jones@example.com","id":"1b92c9","first":"hannah","last":"jones"},{"email":"rose.thompson@example.com","id":"234b23","first":"rose","last":"thompson"},{"email":"charlotte.bélanger@example.com","id":"79f57e","first":"charlotte","last":"bélanger"},{"email":"gabriel.macdonald@example.com","id":"5fe309","first":"gabriel","last":"macdonald"},{"email":"leanne.margaret@example.com","id":"74a5b2","first":"leanne","last":"margaret"},{"email":"elizabeth.ross@example.com","id":"1da66","first":"elizabeth","last":"ross"},{"email":"etienne.campbell@example.com","id":"d428fc","first":"etienne","last":"campbell"},{"email":"thomas.park@example.com","id":"f122d6","first":"thomas","last":"park"},{"email":"dominic.andersen@example.com","id":"e6953c","first":"dominic","last":"andersen"},{"email":"blake.brown@example.com","id":"605da8","first":"blake","last":"brown"},{"email":"vincent.french@example.com","id":"a62157","first":"vincent","last":"french"},{"email":"aubrey.mackay@example.com","id":"ef613e","first":"aubrey","last":"mackay"},{"email":"isabella.white@example.com","id":"aedb8c","first":"isabella","last":"white"},{"email":"alexandre.kowalski@example.com","id":"dd4633","first":"alexandre","last":"kowalski"},{"email":"sophie.walker@example.com","id":"4329d1","first":"sophie","last":"walker"},{"email":"liam.novak@example.com","id":"7184fe","first":"liam","last":"novak"},{"email":"samuel.mackay@example.com","id":"f5ac61","first":"samuel","last":"mackay"},{"email":"rose.wilson@example.com","id":"6044c5","first":"rose","last":"wilson"},{"email":"marianne.harcourt@example.com","id":"2538f2","first":"marianne","last":"harcourt"},{"email":"aubrey.harris@example.com","id":"927e6","first":"aubrey","last":"harris"},{"email":"anthony.claire@example.com","id":"c139c0","first":"anthony","last":"claire"},{"email":"owen.ouellet@example.com","id":"e6c1f9","first":"owen","last":"ouellet"},{"email":"juliette.mackay@example.com","id":"d242bf","first":"juliette","last":"mackay"},{"email":"hunter.white@example.com","id":"212817","first":"hunter","last":"white"},{"email":"mia.addy@example.com","id":"97c4a7","first":"mia","last":"addy"},{"email":"adam.barnaby@example.com","id":"ee8540","first":"adam","last":"barnaby"},{"email":"emma.barnaby@example.com","id":"f95f62","first":"emma","last":"barnaby"},{"email":"laurie.martin@example.com","id":"be11a1","first":"laurie","last":"martin"},{"email":"mia.gauthier@example.com","id":"e1e710","first":"mia","last":"gauthier"},{"email":"victor.chu@example.com","id":"73a8e4","first":"victor","last":"chu"},{"email":"marilou.scott@example.com","id":"7e48b5","first":"marilou","last":"scott"},{"email":"annabelle.lévesque@example.com","id":"383185","first":"annabelle","last":"lévesque"},{"email":"zachary.mitchell@example.com","id":"a04ce5","first":"zachary","last":"mitchell"},{"email":"ryan.lavoie@example.com","id":"e77e9a","first":"ryan","last":"lavoie"},{"email":"elliot.lavoie@example.com","id":"42be1f","first":"elliot","last":"lavoie"},{"email":"marilou.lo@example.com","id":"26059f","first":"marilou","last":"lo"},{"email":"camille.harcourt@example.com","id":"cb76b3","first":"camille","last":"harcourt"},{"email":"daniel.kowalski@example.com","id":"ede66","first":"daniel","last":"kowalski"},{"email":"maxime.macdonald@example.com","id":"b3ffda","first":"maxime","last":"macdonald"},{"email":"justine.gagnon@example.com","id":"66caa9","first":"justine","last":"gagnon"},{"email":"daniel.smith@example.com","id":"248c7e","first":"daniel","last":"smith"},{"email":"lucas.ross@example.com","id":"9c71e3","first":"lucas","last":"ross"},{"email":"charles.scott@example.com","id":"3b8b83","first":"charles","last":"scott"},{"email":"emile.johnson@example.com","id":"f7cd56","first":"emile","last":"johnson"},{"email":"jeremy.clark@example.com","id":"8570f3","first":"jeremy","last":"clark"},{"email":"juliette.claire@example.com","id":"a8def9","first":"juliette","last":"claire"},{"email":"emma.singh@example.com","id":"3bb42e","first":"emma","last":"singh"},{"email":"brielle.abraham@example.com","id":"ed3175","first":"brielle","last":"abraham"},{"email":"hailey.gill@example.com","id":"1f1f73","first":"hailey","last":"gill"},{"email":"daniel.ambrose@example.com","id":"5994e9","first":"daniel","last":"ambrose"},{"email":"beatrice.lavoie@example.com","id":"2d3751","first":"beatrice","last":"lavoie"},{"email":"sarah.wilson@example.com","id":"45d458","first":"sarah","last":"wilson"},{"email":"dominic.wilson@example.com","id":"7d93d9","first":"dominic","last":"wilson"},{"email":"elizabeth.thompson@example.com","id":"9a1946","first":"elizabeth","last":"thompson"},{"email":"jayden.taylor@example.com","id":"dd8531","first":"jayden","last":"taylor"},{"email":"dylan.fortin@example.com","id":"751daf","first":"dylan","last":"fortin"},{"email":"marianne.lévesque@example.com","id":"c16543","first":"marianne","last":"lévesque"},{"email":"amelia.chan@example.com","id":"caf2a2","first":"amelia","last":"chan"},{"email":"ava.lo@example.com","id":"73633d","first":"ava","last":"lo"},{"email":"nicolas.young@example.com","id":"64c7ce","first":"nicolas","last":"young"},{"email":"philip.lam@example.com","id":"7666c6","first":"philip","last":"lam"},{"email":"clara.margaret@example.com","id":"d894d7","first":"clara","last":"margaret"},{"email":"arnaud.white@example.com","id":"29ddb","first":"arnaud","last":"white"},{"email":"mason.andersen@example.com","id":"957b68","first":"mason","last":"andersen"},{"email":"camille.denys@example.com","id":"fdc297","first":"camille","last":"denys"},{"email":"xavier.lavoie@example.com","id":"fa640","first":"xavier","last":"lavoie"},{"email":"jayden.campbell@example.com","id":"ca49e","first":"jayden","last":"campbell"},{"email":"liam.kowalski@example.com","id":"a06a20","first":"liam","last":"kowalski"},{"email":"ryan.tremblay@example.com","id":"c7fe7","first":"ryan","last":"tremblay"},{"email":"felix.harris@example.com","id":"75413","first":"felix","last":"harris"},{"email":"philippe.ma@example.com","id":"b46fb6","first":"philippe","last":"ma"},{"email":"lucas.white@example.com","id":"812bff","first":"lucas","last":"white"},{"email":"nicolas.margaret@example.com","id":"bea5c9","first":"nicolas","last":"margaret"},{"email":"rose.williams@example.com","id":"7e9477","first":"rose","last":"williams"},{"email":"alexander.côté@example.com","id":"f938ee","first":"alexander","last":"côté"},{"email":"philip.jones@example.com","id":"a21507","first":"philip","last":"jones"},{"email":"sofia.smith@example.com","id":"f4c58c","first":"sofia","last":"smith"},{"email":"sofia.french@example.com","id":"59f1e2","first":"sofia","last":"french"},{"email":"eva.wilson@example.com","id":"3efc6f","first":"eva","last":"wilson"},{"email":"maeva.clark@example.com","id":"7a5358","first":"maeva","last":"clark"},{"email":"maeva.harcourt@example.com","id":"1b5606","first":"maeva","last":"harcourt"},{"email":"james.walker@example.com","id":"2159aa","first":"james","last":"walker"},{"email":"alicia.côté@example.com","id":"5497b9","first":"alicia","last":"côté"},{"email":"logan.harris@example.com","id":"680e7b","first":"logan","last":"harris"},{"email":"emma.addy@example.com","id":"8f145e","first":"emma","last":"addy"},{"email":"aiden.walker@example.com","id":"f49874","first":"aiden","last":"walker"},{"email":"nicolas.anderson@example.com","id":"b48f40","first":"nicolas","last":"anderson"},{"email":"emily.patel@example.com","id":"11ca27","first":"emily","last":"patel"},{"email":"simon.white@example.com","id":"bd34e2","first":"simon","last":"white"},{"email":"dominic.harcourt@example.com","id":"af27e3","first":"dominic","last":"harcourt"},{"email":"mia.sirko@example.com","id":"f58ae7","first":"mia","last":"sirko"},{"email":"melodie.kowalski@example.com","id":"b84f20","first":"melodie","last":"kowalski"},{"email":"nicolas.tremblay@example.com","id":"cc748b","first":"nicolas","last":"tremblay"},{"email":"madison.walker@example.com","id":"364a76","first":"madison","last":"walker"},{"email":"alexander.gill@example.com","id":"332ce1","first":"alexander","last":"gill"},{"email":"harper.chan@example.com","id":"a6334","first":"harper","last":"chan"},{"email":"amy.mitchell@example.com","id":"4db4ce","first":"amy","last":"mitchell"},{"email":"mathis.denys@example.com","id":"2de90b","first":"mathis","last":"denys"},{"email":"julia.chow@example.com","id":"8be98","first":"julia","last":"chow"},{"email":"dylan.park@example.com","id":"969727","first":"dylan","last":"park"},{"email":"julia.roy@example.com","id":"3b24d8","first":"julia","last":"roy"},{"email":"sofia.smith@example.com","id":"1054c8","first":"sofia","last":"smith"},{"email":"arthur.gagné@example.com","id":"527ba0","first":"arthur","last":"gagné"},{"email":"emily.kowalski@example.com","id":"2a8333","first":"emily","last":"kowalski"},{"email":"aubree.patel@example.com","id":"56b062","first":"aubree","last":"patel"},{"email":"jeanne.lévesque@example.com","id":"69e90c","first":"jeanne","last":"lévesque"},{"email":"florence.lam@example.com","id":"7b69d2","first":"florence","last":"lam"},{"email":"eva.addy@example.com","id":"bd22ed","first":"eva","last":"addy"},{"email":"ethan.young@example.com","id":"b0569","first":"ethan","last":"young"},{"email":"ava.singh@example.com","id":"8cf840","first":"ava","last":"singh"},{"email":"adam.thompson@example.com","id":"f79272","first":"adam","last":"thompson"},{"email":"aubree.kowalski@example.com","id":"724ca3","first":"aubree","last":"kowalski"},{"email":"florence.chow@example.com","id":"bfaa4e","first":"florence","last":"chow"},{"email":"laurie.park@example.com","id":"64f6fa","first":"laurie","last":"park"},{"email":"noah.bergeron@example.com","id":"21440a","first":"noah","last":"bergeron"},{"email":"harper.johnson@example.com","id":"6a927a","first":"harper","last":"johnson"},{"email":"olivier.white@example.com","id":"ad64c7","first":"olivier","last":"white"},{"email":"camille.scott@example.com","id":"f0c3fe","first":"camille","last":"scott"},{"email":"rose.miller@example.com","id":"8a22ef","first":"rose","last":"miller"},{"email":"noémie.slawa@example.com","id":"687622","first":"noémie","last":"slawa"},{"email":"ella.fortin@example.com","id":"a1ac45","first":"ella","last":"fortin"},{"email":"sophia.addy@example.com","id":"39da8","first":"sophia","last":"addy"},{"email":"aubrey.denys@example.com","id":"3fe148","first":"aubrey","last":"denys"},{"email":"elizabeth.lavoie@example.com","id":"5ad421","first":"elizabeth","last":"lavoie"},{"email":"leo.chu@example.com","id":"70f6ab","first":"leo","last":"chu"},{"email":"noémie.french@example.com","id":"4b2996","first":"noémie","last":"french"},{"email":"victor.macdonald@example.com","id":"6cedba","first":"victor","last":"macdonald"},{"email":"adam.scott@example.com","id":"9fc138","first":"adam","last":"scott"},{"email":"liam.chan@example.com","id":"90892e","first":"liam","last":"chan"},{"email":"justine.park@example.com","id":"c710e0","first":"justine","last":"park"},{"email":"liam.macdonald@example.com","id":"db8848","first":"liam","last":"macdonald"},{"email":"sophie.mackay@example.com","id":"2f766c","first":"sophie","last":"mackay"},{"email":"chloe.chow@example.com","id":"5850f9","first":"chloe","last":"chow"},{"email":"addison.liu@example.com","id":"5c9a64","first":"addison","last":"liu"},{"email":"sarah.harcourt@example.com","id":"68dd8a","first":"sarah","last":"harcourt"},{"email":"antoine.harris@example.com","id":"dd38f8","first":"antoine","last":"harris"},{"email":"aubree.tremblay@example.com","id":"3516ba","first":"aubree","last":"tremblay"},{"email":"logan.gagnon@example.com","id":"5c764b","first":"logan","last":"gagnon"},{"email":"etienne.ma@example.com","id":"4bc483","first":"etienne","last":"ma"},{"email":"philippe.white@example.com","id":"29a59e","first":"philippe","last":"white"},{"email":"abigail.jean-baptiste@example.com","id":"4dbb56","first":"abigail","last":"jean-baptiste"},{"email":"zachary.gagné@example.com","id":"f02383","first":"zachary","last":"gagné"},{"email":"annabelle.mitchell@example.com","id":"ed9b1a","first":"annabelle","last":"mitchell"},{"email":"maxime.patel@example.com","id":"ea63ce","first":"maxime","last":"patel"},{"email":"carter.lévesque@example.com","id":"bc406b","first":"carter","last":"lévesque"},{"email":"ella.anderson@example.com","id":"27afe1","first":"ella","last":"anderson"},{"email":"alexis.walker@example.com","id":"6fc06d","first":"alexis","last":"walker"},{"email":"dylan.liu@example.com","id":"7efa","first":"dylan","last":"liu"},{"email":"sophia.jones@example.com","id":"242588","first":"sophia","last":"jones"},{"email":"zachary.gagnon@example.com","id":"67e324","first":"zachary","last":"gagnon"},{"email":"noah.patel@example.com","id":"2dcc6c","first":"noah","last":"patel"},{"email":"laurie.denys@example.com","id":"5a84b5","first":"laurie","last":"denys"},{"email":"amy.jones@example.com","id":"154cf5","first":"amy","last":"jones"},{"email":"aubree.macdonald@example.com","id":"461d50","first":"aubree","last":"macdonald"},{"email":"felix.ennis@example.com","id":"16f6b6","first":"felix","last":"ennis"},{"email":"benjamin.barnaby@example.com","id":"cb132f","first":"benjamin","last":"barnaby"},{"email":"marianne.kowalski@example.com","id":"a55648","first":"marianne","last":"kowalski"},{"email":"benjamin.knight@example.com","id":"f4cf58","first":"benjamin","last":"knight"},{"email":"bently.chan@example.com","id":"50f059","first":"bently","last":"chan"},{"email":"justin.roy@example.com","id":"cb1e45","first":"justin","last":"roy"},{"email":"blake.abraham@example.com","id":"2998f9","first":"blake","last":"abraham"},{"email":"noémie.ross@example.com","id":"5236f1","first":"noémie","last":"ross"},{"email":"marianne.french@example.com","id":"67cd64","first":"marianne","last":"french"},{"email":"noah.smith@example.com","id":"778c78","first":"noah","last":"smith"},{"email":"marianne.lavigne@example.com","id":"c06b41","first":"marianne","last":"lavigne"},{"email":"bently.park@example.com","id":"25b0aa","first":"bently","last":"park"},{"email":"jacob.scott@example.com","id":"35abff","first":"jacob","last":"scott"},{"email":"leanne.gauthier@example.com","id":"a5e164","first":"leanne","last":"gauthier"},{"email":"malik.lavigne@example.com","id":"28b2bd","first":"malik","last":"lavigne"},{"email":"aubrey.lavoie@example.com","id":"44b813","first":"aubrey","last":"lavoie"},{"email":"liam.gauthier@example.com","id":"20b745","first":"liam","last":"gauthier"},{"email":"isabella.mackay@example.com","id":"c1b36c","first":"isabella","last":"mackay"},{"email":"eva.fortin@example.com","id":"2c5c3a","first":"eva","last":"fortin"},{"email":"liam.patel@example.com","id":"b23833","first":"liam","last":"patel"},{"email":"lea.miller@example.com","id":"7bfdd5","first":"lea","last":"miller"},{"email":"vincent.addy@example.com","id":"786473","first":"vincent","last":"addy"},{"email":"hudson.williams@example.com","id":"6f0468","first":"hudson","last":"williams"},{"email":"eva.claire@example.com","id":"2e19ff","first":"eva","last":"claire"},{"email":"lily.patel@example.com","id":"8bd67","first":"lily","last":"patel"},{"email":"etienne.andersen@example.com","id":"7006ce","first":"etienne","last":"andersen"},{"email":"lucas.côté@example.com","id":"75f811","first":"lucas","last":"côté"},{"email":"mason.lavoie@example.com","id":"cc89d1","first":"mason","last":"lavoie"},{"email":"marianne.white@example.com","id":"542bbf","first":"marianne","last":"white"},{"email":"felix.mitchell@example.com","id":"e81e0d","first":"felix","last":"mitchell"},{"email":"gabrielle.campbell@example.com","id":"696243","first":"gabrielle","last":"campbell"},{"email":"daniel.morin@example.com","id":"fbf75c","first":"daniel","last":"morin"},{"email":"louis.gagné@example.com","id":"6cdb0b","first":"louis","last":"gagné"},{"email":"ella.bélanger@example.com","id":"8719ff","first":"ella","last":"bélanger"},{"email":"logan.abraham@example.com","id":"91bb24","first":"logan","last":"abraham"},{"email":"alicia.jean-baptiste@example.com","id":"8043f0","first":"alicia","last":"jean-baptiste"},{"email":"jasmine.ginnish@example.com","id":"44e21","first":"jasmine","last":"ginnish"},{"email":"amelia.roy@example.com","id":"7320b1","first":"amelia","last":"roy"},{"email":"isabella.ambrose@example.com","id":"10fa9","first":"isabella","last":"ambrose"},{"email":"james.grewal@example.com","id":"ccaf48","first":"james","last":"grewal"},{"email":"felix.ambrose@example.com","id":"779529","first":"felix","last":"ambrose"},{"email":"nathan.slawa@example.com","id":"c209e7","first":"nathan","last":"slawa"},{"email":"emily.abraham@example.com","id":"8694dc","first":"emily","last":"abraham"},{"email":"marianne.margaret@example.com","id":"13e05","first":"marianne","last":"margaret"},{"email":"emile.slawa@example.com","id":"dbfdfe","first":"emile","last":"slawa"},{"email":"theo.ambrose@example.com","id":"3424aa","first":"theo","last":"ambrose"},{"email":"oliver.tremblay@example.com","id":"f28621","first":"oliver","last":"tremblay"},{"email":"charles.chu@example.com","id":"2bf0bd","first":"charles","last":"chu"},{"email":"victor.ma@example.com","id":"98a861","first":"victor","last":"ma"},{"email":"gabrielle.jean-baptiste@example.com","id":"4721a0","first":"gabrielle","last":"jean-baptiste"},{"email":"aubree.abraham@example.com","id":"9c5b05","first":"aubree","last":"abraham"},{"email":"william.taylor@example.com","id":"4ea72b","first":"william","last":"taylor"},{"email":"noémie.ambrose@example.com","id":"4a775a","first":"noémie","last":"ambrose"},{"email":"alicia.novak@example.com","id":"45377b","first":"alicia","last":"novak"},{"email":"mathis.claire@example.com","id":"94471d","first":"mathis","last":"claire"},{"email":"sophie.chu@example.com","id":"924045","first":"sophie","last":"chu"},{"email":"bently.miller@example.com","id":"2f6608","first":"bently","last":"miller"},{"email":"abigail.ross@example.com","id":"8106e5","first":"abigail","last":"ross"},{"email":"logan.jean-baptiste@example.com","id":"d1e196","first":"logan","last":"jean-baptiste"},{"email":"elliot.bélanger@example.com","id":"b30951","first":"elliot","last":"bélanger"},{"email":"leanne.margaret@example.com","id":"f0bd6f","first":"leanne","last":"margaret"},{"email":"logan.denys@example.com","id":"97e0f2","first":"logan","last":"denys"},{"email":"charlotte.addy@example.com","id":"fc58d2","first":"charlotte","last":"addy"},{"email":"xavier.park@example.com","id":"9f2928","first":"xavier","last":"park"},{"email":"emma.andersen@example.com","id":"3907f6","first":"emma","last":"andersen"},{"email":"aubrey.chow@example.com","id":"3e1d7b","first":"aubrey","last":"chow"},{"email":"lucas.lavigne@example.com","id":"730238","first":"lucas","last":"lavigne"},{"email":"hannah.sirko@example.com","id":"b58e1e","first":"hannah","last":"sirko"},{"email":"sofia.ouellet@example.com","id":"18dc4a","first":"sofia","last":"ouellet"},{"email":"addison.park@example.com","id":"2e501","first":"addison","last":"park"},{"email":"alexandre.walker@example.com","id":"5a7356","first":"alexandre","last":"walker"},{"email":"malik.walker@example.com","id":"7b8229","first":"malik","last":"walker"},{"email":"william.novak@example.com","id":"5a0eaf","first":"william","last":"novak"},{"email":"jade.roy@example.com","id":"d1e433","first":"jade","last":"roy"},{"email":"thomas.johnson@example.com","id":"65399f","first":"thomas","last":"johnson"},{"email":"noah.martin@example.com","id":"75c147","first":"noah","last":"martin"},{"email":"hudson.roy@example.com","id":"b97c15","first":"hudson","last":"roy"},{"email":"ethan.fortin@example.com","id":"c02c7a","first":"ethan","last":"fortin"},{"email":"thomas.campbell@example.com","id":"2b2320","first":"thomas","last":"campbell"},{"email":"adam.harris@example.com","id":"a3deae","first":"adam","last":"harris"},{"email":"etienne.li@example.com","id":"57b439","first":"etienne","last":"li"},{"email":"noah.wilson@example.com","id":"dd56af","first":"noah","last":"wilson"},{"email":"olivier.taylor@example.com","id":"c69b05","first":"olivier","last":"taylor"},{"email":"samuel.côté@example.com","id":"e47bff","first":"samuel","last":"côté"},{"email":"justin.ennis@example.com","id":"7059fc","first":"justin","last":"ennis"},{"email":"maeva.french@example.com","id":"3778e0","first":"maeva","last":"french"},{"email":"james.knight@example.com","id":"3ae616","first":"james","last":"knight"},{"email":"jayden.jones@example.com","id":"f7894b","first":"jayden","last":"jones"},{"email":"madison.young@example.com","id":"2b75d2","first":"madison","last":"young"},{"email":"liam.fortin@example.com","id":"ef2f38","first":"liam","last":"fortin"},{"email":"lucas.ouellet@example.com","id":"b0978b","first":"lucas","last":"ouellet"},{"email":"mia.fortin@example.com","id":"62cbba","first":"mia","last":"fortin"},{"email":"alexandre.ambrose@example.com","id":"692d7d","first":"alexandre","last":"ambrose"},{"email":"tristan.bergeron@example.com","id":"9f7e68","first":"tristan","last":"bergeron"},{"email":"lily.jones@example.com","id":"7b9c74","first":"lily","last":"jones"},{"email":"brielle.gagné@example.com","id":"9ba1","first":"brielle","last":"gagné"},{"email":"delphine.singh@example.com","id":"cbb26","first":"delphine","last":"singh"},{"email":"victoria.patel@example.com","id":"58e36c","first":"victoria","last":"patel"},{"email":"maxime.sirko@example.com","id":"1c10a0","first":"maxime","last":"sirko"},{"email":"tristan.gill@example.com","id":"b95482","first":"tristan","last":"gill"},{"email":"alexis.harris@example.com","id":"31d595","first":"alexis","last":"harris"},{"email":"thomas.margaret@example.com","id":"db6383","first":"thomas","last":"margaret"},{"email":"alexis.thompson@example.com","id":"c09549","first":"alexis","last":"thompson"},{"email":"dylan.roy@example.com","id":"94b2cf","first":"dylan","last":"roy"},{"email":"alexander.chu@example.com","id":"de7330","first":"alexander","last":"chu"},{"email":"dominic.smith@example.com","id":"48c9b1","first":"dominic","last":"smith"},{"email":"harper.ouellet@example.com","id":"efac96","first":"harper","last":"ouellet"},{"email":"victoria.park@example.com","id":"bdd827","first":"victoria","last":"park"},{"email":"malik.campbell@example.com","id":"bd4e53","first":"malik","last":"campbell"},{"email":"hunter.denys@example.com","id":"997bd7","first":"hunter","last":"denys"},{"email":"simon.french@example.com","id":"7b24eb","first":"simon","last":"french"},{"email":"thomas.li@example.com","id":"bab67b","first":"thomas","last":"li"},{"email":"daniel.gill@example.com","id":"d439c4","first":"daniel","last":"gill"},{"email":"julia.ambrose@example.com","id":"df1d53","first":"julia","last":"ambrose"},{"email":"louis.kowalski@example.com","id":"aa06f3","first":"louis","last":"kowalski"},{"email":"zackary.anderson@example.com","id":"d290ad","first":"zackary","last":"anderson"},{"email":"melodie.fortin@example.com","id":"7f5082","first":"melodie","last":"fortin"},{"email":"jeremy.ginnish@example.com","id":"bd5925","first":"jeremy","last":"ginnish"},{"email":"ryder.ginnish@example.com","id":"3f35f9","first":"ryder","last":"ginnish"},{"email":"theo.bergeron@example.com","id":"3489e8","first":"theo","last":"bergeron"},{"email":"clara.patel@example.com","id":"2108f","first":"clara","last":"patel"},{"email":"zackary.ginnish@example.com","id":"8a626c","first":"zackary","last":"ginnish"},{"email":"alexandre.young@example.com","id":"4fa28d","first":"alexandre","last":"young"},{"email":"alice.gagnon@example.com","id":"d22b2b","first":"alice","last":"gagnon"},{"email":"madison.barnaby@example.com","id":"465a9c","first":"madison","last":"barnaby"},{"email":"jade.li@example.com","id":"e76550","first":"jade","last":"li"},{"email":"emma.martin@example.com","id":"e1c8f6","first":"emma","last":"martin"},{"email":"leo.ambrose@example.com","id":"54ca0a","first":"leo","last":"ambrose"},{"email":"annabelle.campbell@example.com","id":"be6569","first":"annabelle","last":"campbell"},{"email":"emily.ma@example.com","id":"bc019a","first":"emily","last":"ma"},{"email":"maya.liu@example.com","id":"1050bb","first":"maya","last":"liu"},{"email":"tristan.harris@example.com","id":"38b71b","first":"tristan","last":"harris"},{"email":"charles.novak@example.com","id":"d26dc9","first":"charles","last":"novak"},{"email":"rose.grewal@example.com","id":"8e1e10","first":"rose","last":"grewal"},{"email":"alexander.park@example.com","id":"7ec4f9","first":"alexander","last":"park"},{"email":"jeremy.lam@example.com","id":"c9d26f","first":"jeremy","last":"lam"},{"email":"simon.clark@example.com","id":"6d81bd","first":"simon","last":"clark"},{"email":"alice.mitchell@example.com","id":"5923a7","first":"alice","last":"mitchell"},{"email":"beatrice.miller@example.com","id":"e986db","first":"beatrice","last":"miller"},{"email":"victor.andersen@example.com","id":"5c3405","first":"victor","last":"andersen"},{"email":"liam.gagné@example.com","id":"c9900f","first":"liam","last":"gagné"},{"email":"brielle.lavigne@example.com","id":"14b70","first":"brielle","last":"lavigne"},{"email":"emily.abraham@example.com","id":"25903a","first":"emily","last":"abraham"},{"email":"laurie.white@example.com","id":"bc1a4c","first":"laurie","last":"white"},{"email":"megan.liu@example.com","id":"66baed","first":"megan","last":"liu"},{"email":"melodie.chan@example.com","id":"fb0069","first":"melodie","last":"chan"},{"email":"elliot.singh@example.com","id":"ed25cc","first":"elliot","last":"singh"},{"email":"rose.margaret@example.com","id":"d66ffb","first":"rose","last":"margaret"},{"email":"jeremy.walker@example.com","id":"587f4","first":"jeremy","last":"walker"},{"email":"florence.gauthier@example.com","id":"4411a","first":"florence","last":"gauthier"},{"email":"sarah.chu@example.com","id":"2252fd","first":"sarah","last":"chu"},{"email":"beatrice.lavigne@example.com","id":"ab0b04","first":"beatrice","last":"lavigne"},{"email":"laurie.singh@example.com","id":"543d38","first":"laurie","last":"singh"},{"email":"leanne.fortin@example.com","id":"27db6c","first":"leanne","last":"fortin"},{"email":"laurie.morin@example.com","id":"d21b7d","first":"laurie","last":"morin"},{"email":"elliot.tremblay@example.com","id":"6de34a","first":"elliot","last":"tremblay"},{"email":"mathis.addy@example.com","id":"70f3f7","first":"mathis","last":"addy"},{"email":"florence.scott@example.com","id":"7fafd","first":"florence","last":"scott"},{"email":"samuel.clark@example.com","id":"cfb220","first":"samuel","last":"clark"},{"email":"bently.johnson@example.com","id":"539e6e","first":"bently","last":"johnson"},{"email":"clara.côté@example.com","id":"3ff8f1","first":"clara","last":"côté"},{"email":"jeanne.claire@example.com","id":"fc4b3c","first":"jeanne","last":"claire"},{"email":"victoria.sirko@example.com","id":"ee9cf6","first":"victoria","last":"sirko"},{"email":"aiden.johnson@example.com","id":"1cf6b8","first":"aiden","last":"johnson"},{"email":"sophia.liu@example.com","id":"81eb38","first":"sophia","last":"liu"},{"email":"beatrice.wong@example.com","id":"f86675","first":"beatrice","last":"wong"},{"email":"hudson.novak@example.com","id":"bb143","first":"hudson","last":"novak"},{"email":"samuel.patel@example.com","id":"8f955c","first":"samuel","last":"patel"},{"email":"avery.thompson@example.com","id":"1fff08","first":"avery","last":"thompson"},{"email":"addison.barnaby@example.com","id":"2d6403","first":"addison","last":"barnaby"},{"email":"juliette.mitchell@example.com","id":"af2a80","first":"juliette","last":"mitchell"},{"email":"charles.bergeron@example.com","id":"eef7f8","first":"charles","last":"bergeron"},{"email":"abigail.claire@example.com","id":"febe7e","first":"abigail","last":"claire"},{"email":"ella.jean-baptiste@example.com","id":"100f57","first":"ella","last":"jean-baptiste"},{"email":"emile.kowalski@example.com","id":"5e584a","first":"emile","last":"kowalski"},{"email":"gabriel.mitchell@example.com","id":"9a146d","first":"gabriel","last":"mitchell"}]
+var members = [
+	{
+		"first": "Chloe",
+		"last": "Clark",
+		"email": "chloe.clark@example.com",
+		"id": "a9cc28",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Matthew",
+		"last": "Lavoie",
+		"email": "matthew.lavoie@example.com",
+		"id": "565b08",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Elliot",
+		"last": "Claire",
+		"email": "elliot.claire@example.com",
+		"id": "c20d05",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Ava",
+		"last": "Chu",
+		"email": "ava.chu@example.com",
+		"id": "5d917e",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Amelia",
+		"last": "Tremblay",
+		"email": "amelia.tremblay@example.com",
+		"id": "8f39ee",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Marilou",
+		"last": "Ambrose",
+		"email": "marilou.ambrose@example.com",
+		"id": "2d51b1",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Gabrielle",
+		"last": "Addy",
+		"email": "gabrielle.addy@example.com",
+		"id": "80ba09",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "James",
+		"last": "Macdonald",
+		"email": "james.macdonald@example.com",
+		"id": "5835a",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Daniel",
+		"last": "White",
+		"email": "daniel.white@example.com",
+		"id": "523154",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Florence",
+		"last": "Lévesque",
+		"email": "florence.lévesque@example.com",
+		"id": "70e19a",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Brielle",
+		"last": "Young",
+		"email": "brielle.young@example.com",
+		"id": "38bf56",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Rose",
+		"last": "Addy",
+		"email": "rose.addy@example.com",
+		"id": "e9f9d2",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Zackary",
+		"last": "Addy",
+		"email": "zackary.addy@example.com",
+		"id": "d9f787",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Laurie",
+		"last": "Ma",
+		"email": "laurie.ma@example.com",
+		"id": "b06255",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Leo",
+		"last": "Novak",
+		"email": "leo.novak@example.com",
+		"id": "2611df",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Daniel",
+		"last": "Denys",
+		"email": "daniel.denys@example.com",
+		"id": "117d90",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Blake",
+		"last": "Liu",
+		"email": "blake.liu@example.com",
+		"id": "96c69c",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Arthur",
+		"last": "Bouchard",
+		"email": "arthur.bouchard@example.com",
+		"id": "8477c5",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Jeremy",
+		"last": "Harris",
+		"email": "jeremy.harris@example.com",
+		"id": "5ef9c9",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Emma",
+		"last": "Liu",
+		"email": "emma.liu@example.com",
+		"id": "2f7834",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Jasmine",
+		"last": "Fortin",
+		"email": "jasmine.fortin@example.com",
+		"id": "510bef",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Philippe",
+		"last": "Ambrose",
+		"email": "philippe.ambrose@example.com",
+		"id": "5f8526",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Charlotte",
+		"last": "Andersen",
+		"email": "charlotte.andersen@example.com",
+		"id": "9e3ec8",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": true
+	},
+	{
+		"first": "Philip",
+		"last": "Lam",
+		"email": "philip.lam@example.com",
+		"id": "a522bf",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "William",
+		"last": "Addy",
+		"email": "william.addy@example.com",
+		"id": "e3941d",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Avery",
+		"last": "Miller",
+		"email": "avery.miller@example.com",
+		"id": "7e1eda",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Charlotte",
+		"last": "Wilson",
+		"email": "charlotte.wilson@example.com",
+		"id": "28dd41",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Harper",
+		"last": "Williams",
+		"email": "harper.williams@example.com",
+		"id": "6581d8",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Maeva",
+		"last": "Lo",
+		"email": "maeva.lo@example.com",
+		"id": "109e56",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Elliot",
+		"last": "Lévesque",
+		"email": "elliot.lévesque@example.com",
+		"id": "76f5ac",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Charlie",
+		"last": "Taylor",
+		"email": "charlie.taylor@example.com",
+		"id": "fbce95",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Daniel",
+		"last": "Patel",
+		"email": "daniel.patel@example.com",
+		"id": "8e3447",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Bently",
+		"last": "Lévesque",
+		"email": "bently.lévesque@example.com",
+		"id": "7ca236",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Owen",
+		"last": "Tremblay",
+		"email": "owen.tremblay@example.com",
+		"id": "35b113",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Lea",
+		"last": "Martin",
+		"email": "lea.martin@example.com",
+		"id": "f8f2f6",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 3,
+		"isCrew": true
+	},
+	{
+		"first": "Benjamin",
+		"last": "Bélanger",
+		"email": "benjamin.bélanger@example.com",
+		"id": "e59204",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Owen",
+		"last": "Patel",
+		"email": "owen.patel@example.com",
+		"id": "576bf5",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Ethan",
+		"last": "Johnson",
+		"email": "ethan.johnson@example.com",
+		"id": "9cfac4",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Sofia",
+		"last": "Claire",
+		"email": "sofia.claire@example.com",
+		"id": "f78ed",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Marilou",
+		"last": "Fortin",
+		"email": "marilou.fortin@example.com",
+		"id": "50f539",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Alicia",
+		"last": "Novak",
+		"email": "alicia.novak@example.com",
+		"id": "d0cc1c",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Daniel",
+		"last": "Park",
+		"email": "daniel.park@example.com",
+		"id": "2cf38c",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Clara",
+		"last": "Bélanger",
+		"email": "clara.bélanger@example.com",
+		"id": "d7594e",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Mason",
+		"last": "Johnson",
+		"email": "mason.johnson@example.com",
+		"id": "bd36e1",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Arnaud",
+		"last": "Campbell",
+		"email": "arnaud.campbell@example.com",
+		"id": "166628",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Chloe",
+		"last": "Bélanger",
+		"email": "chloe.bélanger@example.com",
+		"id": "48f0ef",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Owen",
+		"last": "Thompson",
+		"email": "owen.thompson@example.com",
+		"id": "822dc9",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Alexis",
+		"last": "Pelletier",
+		"email": "alexis.pelletier@example.com",
+		"id": "89d8c0",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Justine",
+		"last": "Mackay",
+		"email": "justine.mackay@example.com",
+		"id": "46a80d",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Melodie",
+		"last": "Roy",
+		"email": "melodie.roy@example.com",
+		"id": "e27ff9",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Matthew",
+		"last": "Ma",
+		"email": "matthew.ma@example.com",
+		"id": "d0690a",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Eva",
+		"last": "Andersen",
+		"email": "eva.andersen@example.com",
+		"id": "4b95d5",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Matthew",
+		"last": "Fortin",
+		"email": "matthew.fortin@example.com",
+		"id": "dd1def",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Lily",
+		"last": "Lavoie",
+		"email": "lily.lavoie@example.com",
+		"id": "3c12bd",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Emilie",
+		"last": "Brar",
+		"email": "emilie.brar@example.com",
+		"id": "5111d6",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Logan",
+		"last": "Lavoie",
+		"email": "logan.lavoie@example.com",
+		"id": "934195",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Abigail",
+		"last": "Grewal",
+		"email": "abigail.grewal@example.com",
+		"id": "28dab2",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Jack",
+		"last": "Bélanger",
+		"email": "jack.bélanger@example.com",
+		"id": "f9def9",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Gabriel",
+		"last": "Novak",
+		"email": "gabriel.novak@example.com",
+		"id": "18c8bf",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Etienne",
+		"last": "Abraham",
+		"email": "etienne.abraham@example.com",
+		"id": "afead1",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Adam",
+		"last": "Ginnish",
+		"email": "adam.ginnish@example.com",
+		"id": "971d53",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Victor",
+		"last": "Macdonald",
+		"email": "victor.macdonald@example.com",
+		"id": "c82eea",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Zoe",
+		"last": "Williams",
+		"email": "zoe.williams@example.com",
+		"id": "97582c",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Zackary",
+		"last": "Gill",
+		"email": "zackary.gill@example.com",
+		"id": "6ccab4",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Maxime",
+		"last": "Jean-baptiste",
+		"email": "maxime.jean-baptiste@example.com",
+		"id": "ce6d92",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Chloe",
+		"last": "Côté",
+		"email": "chloe.côté@example.com",
+		"id": "adf2a5",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Victor",
+		"last": "Anderson",
+		"email": "victor.anderson@example.com",
+		"id": "a77daf",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Charlotte",
+		"last": "Ambrose",
+		"email": "charlotte.ambrose@example.com",
+		"id": "7fcac3",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Olivier",
+		"last": "Denys",
+		"email": "olivier.denys@example.com",
+		"id": "6ea431",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Camille",
+		"last": "Patel",
+		"email": "camille.patel@example.com",
+		"id": "86770d",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Blake",
+		"last": "Lévesque",
+		"email": "blake.lévesque@example.com",
+		"id": "447db6",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Ava",
+		"last": "Slawa",
+		"email": "ava.slawa@example.com",
+		"id": "b08ba1",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Abigail",
+		"last": "Young",
+		"email": "abigail.young@example.com",
+		"id": "69e8f",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Daniel",
+		"last": "Miller",
+		"email": "daniel.miller@example.com",
+		"id": "f18b97",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Elizabeth",
+		"last": "Wilson",
+		"email": "elizabeth.wilson@example.com",
+		"id": "d74c97",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Florence",
+		"last": "Kowalski",
+		"email": "florence.kowalski@example.com",
+		"id": "d46d86",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Rose",
+		"last": "Lam",
+		"email": "rose.lam@example.com",
+		"id": "b703e7",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": true
+	},
+	{
+		"first": "Eva",
+		"last": "White",
+		"email": "eva.white@example.com",
+		"id": "3382b4",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Marilou",
+		"last": "White",
+		"email": "marilou.white@example.com",
+		"id": "db44e",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Adam",
+		"last": "Margaret",
+		"email": "adam.margaret@example.com",
+		"id": "4eb276",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Gabriel",
+		"last": "Grewal",
+		"email": "gabriel.grewal@example.com",
+		"id": "42abce",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Gabrielle",
+		"last": "Clark",
+		"email": "gabrielle.clark@example.com",
+		"id": "d46c7f",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Simon",
+		"last": "Lévesque",
+		"email": "simon.lévesque@example.com",
+		"id": "ec11dd",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Avery",
+		"last": "Gagnon",
+		"email": "avery.gagnon@example.com",
+		"id": "928b3e",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": true
+	},
+	{
+		"first": "Jasmine",
+		"last": "Abraham",
+		"email": "jasmine.abraham@example.com",
+		"id": "3b321b",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Jeanne",
+		"last": "Harcourt",
+		"email": "jeanne.harcourt@example.com",
+		"id": "2b0d90",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Charlotte",
+		"last": "Mitchell",
+		"email": "charlotte.mitchell@example.com",
+		"id": "a7667a",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Anthony",
+		"last": "Roy",
+		"email": "anthony.roy@example.com",
+		"id": "cf7cd4",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Addison",
+		"last": "Brar",
+		"email": "addison.brar@example.com",
+		"id": "b171eb",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Alexis",
+		"last": "Fortin",
+		"email": "alexis.fortin@example.com",
+		"id": "de4d1a",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "David",
+		"last": "Ambrose",
+		"email": "david.ambrose@example.com",
+		"id": "574176",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Jeremy",
+		"last": "Roy",
+		"email": "jeremy.roy@example.com",
+		"id": "bbf273",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Chloe",
+		"last": "Smith",
+		"email": "chloe.smith@example.com",
+		"id": "f64eaf",
+		"memberSince": "2017-02-08T07:16:50.206Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Justine",
+		"last": "Macdonald",
+		"email": "justine.macdonald@example.com",
+		"id": "c90f00",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Alexander",
+		"last": "Lavoie",
+		"email": "alexander.lavoie@example.com",
+		"id": "393a7a",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": true
+	},
+	{
+		"first": "Oliver",
+		"last": "Gagnon",
+		"email": "oliver.gagnon@example.com",
+		"id": "ac2152",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Zachary",
+		"last": "Côté",
+		"email": "zachary.côté@example.com",
+		"id": "c4cb48",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Noah",
+		"last": "Thompson",
+		"email": "noah.thompson@example.com",
+		"id": "2189a7",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": true
+	},
+	{
+		"first": "James",
+		"last": "Slawa",
+		"email": "james.slawa@example.com",
+		"id": "c37b93",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Owen",
+		"last": "Gauthier",
+		"email": "owen.gauthier@example.com",
+		"id": "9e8ff7",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": true
+	},
+	{
+		"first": "Gabrielle",
+		"last": "Lavigne",
+		"email": "gabrielle.lavigne@example.com",
+		"id": "848713",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Nicolas",
+		"last": "Grewal",
+		"email": "nicolas.grewal@example.com",
+		"id": "175190",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Elliot",
+		"last": "Young",
+		"email": "elliot.young@example.com",
+		"id": "7d263",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Dominic",
+		"last": "Patel",
+		"email": "dominic.patel@example.com",
+		"id": "156e69",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Amelia",
+		"last": "Anderson",
+		"email": "amelia.anderson@example.com",
+		"id": "7903e4",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Simon",
+		"last": "Kowalski",
+		"email": "simon.kowalski@example.com",
+		"id": "fa83d4",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Ryder",
+		"last": "Ambrose",
+		"email": "ryder.ambrose@example.com",
+		"id": "20b965",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Olivia",
+		"last": "Walker",
+		"email": "olivia.walker@example.com",
+		"id": "c738a1",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Ryan",
+		"last": "Jean-baptiste",
+		"email": "ryan.jean-baptiste@example.com",
+		"id": "28d7a0",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Ryan",
+		"last": "Slawa",
+		"email": "ryan.slawa@example.com",
+		"id": "3de1d8",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Adam",
+		"last": "Slawa",
+		"email": "adam.slawa@example.com",
+		"id": "a0f1ff",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Anthony",
+		"last": "Liu",
+		"email": "anthony.liu@example.com",
+		"id": "e2ca46",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Charlotte",
+		"last": "Chow",
+		"email": "charlotte.chow@example.com",
+		"id": "8c3a14",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Amelia",
+		"last": "Young",
+		"email": "amelia.young@example.com",
+		"id": "21ef67",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Gabrielle",
+		"last": "Abraham",
+		"email": "gabrielle.abraham@example.com",
+		"id": "6ed81a",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Mason",
+		"last": "Young",
+		"email": "mason.young@example.com",
+		"id": "1ce100",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Matthew",
+		"last": "Patel",
+		"email": "matthew.patel@example.com",
+		"id": "b78a82",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Samuel",
+		"last": "Mackay",
+		"email": "samuel.mackay@example.com",
+		"id": "82265b",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Samuel",
+		"last": "Morin",
+		"email": "samuel.morin@example.com",
+		"id": "96ee42",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Camille",
+		"last": "Bergeron",
+		"email": "camille.bergeron@example.com",
+		"id": "d60fc",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Juliette",
+		"last": "Roy",
+		"email": "juliette.roy@example.com",
+		"id": "ff6faf",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Addison",
+		"last": "Slawa",
+		"email": "addison.slawa@example.com",
+		"id": "335fab",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Gabriel",
+		"last": "Taylor",
+		"email": "gabriel.taylor@example.com",
+		"id": "301792",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Arnaud",
+		"last": "Morin",
+		"email": "arnaud.morin@example.com",
+		"id": "7991e1",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Maeva",
+		"last": "Mitchell",
+		"email": "maeva.mitchell@example.com",
+		"id": "accb8f",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Daniel",
+		"last": "Abraham",
+		"email": "daniel.abraham@example.com",
+		"id": "7511f2",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Alicia",
+		"last": "Jean-baptiste",
+		"email": "alicia.jean-baptiste@example.com",
+		"id": "251a30",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Emma",
+		"last": "Chu",
+		"email": "emma.chu@example.com",
+		"id": "da7f33",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Leanne",
+		"last": "Bélanger",
+		"email": "leanne.bélanger@example.com",
+		"id": "42f873",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Isabella",
+		"last": "Slawa",
+		"email": "isabella.slawa@example.com",
+		"id": "a3f50f",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "James",
+		"last": "Chu",
+		"email": "james.chu@example.com",
+		"id": "e299e5",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Victor",
+		"last": "Liu",
+		"email": "victor.liu@example.com",
+		"id": "e128b4",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Etienne",
+		"last": "Clark",
+		"email": "etienne.clark@example.com",
+		"id": "b176bc",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Sarah",
+		"last": "Andersen",
+		"email": "sarah.andersen@example.com",
+		"id": "182a7f",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Maeva",
+		"last": "Sirko",
+		"email": "maeva.sirko@example.com",
+		"id": "39fd73",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Ryan",
+		"last": "Harris",
+		"email": "ryan.harris@example.com",
+		"id": "31179a",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Samuel",
+		"last": "Ambrose",
+		"email": "samuel.ambrose@example.com",
+		"id": "f3fb20",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Alexis",
+		"last": "Gagné",
+		"email": "alexis.gagné@example.com",
+		"id": "48d443",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Beatrice",
+		"last": "Chan",
+		"email": "beatrice.chan@example.com",
+		"id": "ea8b64",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Sofia",
+		"last": "Ma",
+		"email": "sofia.ma@example.com",
+		"id": "606fbd",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Lucas",
+		"last": "Miller",
+		"email": "lucas.miller@example.com",
+		"id": "c4e4a6",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Annabelle",
+		"last": "Mitchell",
+		"email": "annabelle.mitchell@example.com",
+		"id": "75a033",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Eva",
+		"last": "Gagnon",
+		"email": "eva.gagnon@example.com",
+		"id": "28ba9d",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Avery",
+		"last": "Gagnon",
+		"email": "avery.gagnon@example.com",
+		"id": "ddf830",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Olivia",
+		"last": "Fortin",
+		"email": "olivia.fortin@example.com",
+		"id": "b10bda",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Dominic",
+		"last": "Mackay",
+		"email": "dominic.mackay@example.com",
+		"id": "e5424a",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Florence",
+		"last": "Lavigne",
+		"email": "florence.lavigne@example.com",
+		"id": "a395c3",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Oliver",
+		"last": "Wilson",
+		"email": "oliver.wilson@example.com",
+		"id": "74f6fc",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Philip",
+		"last": "Johnson",
+		"email": "philip.johnson@example.com",
+		"id": "998630",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Abigail",
+		"last": "Ross",
+		"email": "abigail.ross@example.com",
+		"id": "8c02a5",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Owen",
+		"last": "Lévesque",
+		"email": "owen.lévesque@example.com",
+		"id": "2ac21d",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Nicolas",
+		"last": "Harris",
+		"email": "nicolas.harris@example.com",
+		"id": "ad9282",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Juliette",
+		"last": "Gagnon",
+		"email": "juliette.gagnon@example.com",
+		"id": "f0628d",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Bently",
+		"last": "Roy",
+		"email": "bently.roy@example.com",
+		"id": "c86ca3",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Justine",
+		"last": "Pelletier",
+		"email": "justine.pelletier@example.com",
+		"id": "c116be",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Lucas",
+		"last": "Chow",
+		"email": "lucas.chow@example.com",
+		"id": "f482e6",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Philip",
+		"last": "Gagné",
+		"email": "philip.gagné@example.com",
+		"id": "e2b649",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Ariane",
+		"last": "Jones",
+		"email": "ariane.jones@example.com",
+		"id": "a73bcb",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Ethan",
+		"last": "Anderson",
+		"email": "ethan.anderson@example.com",
+		"id": "da9df2",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Noémie",
+		"last": "Wong",
+		"email": "noémie.wong@example.com",
+		"id": "48d939",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Megan",
+		"last": "Knight",
+		"email": "megan.knight@example.com",
+		"id": "6b087b",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Daniel",
+		"last": "Campbell",
+		"email": "daniel.campbell@example.com",
+		"id": "c0a42c",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Noémie",
+		"last": "Roy",
+		"email": "noémie.roy@example.com",
+		"id": "46b7e5",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Annabelle",
+		"last": "Abraham",
+		"email": "annabelle.abraham@example.com",
+		"id": "eba4bd",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Emilie",
+		"last": "Wong",
+		"email": "emilie.wong@example.com",
+		"id": "d3abcc",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Noémie",
+		"last": "Addy",
+		"email": "noémie.addy@example.com",
+		"id": "6a105a",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Juliette",
+		"last": "Chan",
+		"email": "juliette.chan@example.com",
+		"id": "cb38dc",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Arnaud",
+		"last": "Bergeron",
+		"email": "arnaud.bergeron@example.com",
+		"id": "fa171",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Philippe",
+		"last": "Chan",
+		"email": "philippe.chan@example.com",
+		"id": "87715a",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Camille",
+		"last": "Chow",
+		"email": "camille.chow@example.com",
+		"id": "78f4f3",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Hannah",
+		"last": "Jones",
+		"email": "hannah.jones@example.com",
+		"id": "8a0f05",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Rose",
+		"last": "Thompson",
+		"email": "rose.thompson@example.com",
+		"id": "7176b",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Charlotte",
+		"last": "Bélanger",
+		"email": "charlotte.bélanger@example.com",
+		"id": "a12079",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Gabriel",
+		"last": "Macdonald",
+		"email": "gabriel.macdonald@example.com",
+		"id": "79d65d",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Leanne",
+		"last": "Margaret",
+		"email": "leanne.margaret@example.com",
+		"id": "db02c4",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Elizabeth",
+		"last": "Ross",
+		"email": "elizabeth.ross@example.com",
+		"id": "a7bcbf",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Etienne",
+		"last": "Campbell",
+		"email": "etienne.campbell@example.com",
+		"id": "986094",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Thomas",
+		"last": "Park",
+		"email": "thomas.park@example.com",
+		"id": "98e250",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Dominic",
+		"last": "Andersen",
+		"email": "dominic.andersen@example.com",
+		"id": "1ed8d1",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Blake",
+		"last": "Brown",
+		"email": "blake.brown@example.com",
+		"id": "f705b2",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Vincent",
+		"last": "French",
+		"email": "vincent.french@example.com",
+		"id": "651411",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Aubrey",
+		"last": "Mackay",
+		"email": "aubrey.mackay@example.com",
+		"id": "4e203a",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Isabella",
+		"last": "White",
+		"email": "isabella.white@example.com",
+		"id": "185db9",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Alexandre",
+		"last": "Kowalski",
+		"email": "alexandre.kowalski@example.com",
+		"id": "585176",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Sophie",
+		"last": "Walker",
+		"email": "sophie.walker@example.com",
+		"id": "7a4a2f",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Liam",
+		"last": "Novak",
+		"email": "liam.novak@example.com",
+		"id": "bdc7a7",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Samuel",
+		"last": "Mackay",
+		"email": "samuel.mackay@example.com",
+		"id": "fec540",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Rose",
+		"last": "Wilson",
+		"email": "rose.wilson@example.com",
+		"id": "950273",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Marianne",
+		"last": "Harcourt",
+		"email": "marianne.harcourt@example.com",
+		"id": "ff873a",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Aubrey",
+		"last": "Harris",
+		"email": "aubrey.harris@example.com",
+		"id": "c839d9",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Anthony",
+		"last": "Claire",
+		"email": "anthony.claire@example.com",
+		"id": "26ffa4",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Owen",
+		"last": "Ouellet",
+		"email": "owen.ouellet@example.com",
+		"id": "66c4ce",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Juliette",
+		"last": "Mackay",
+		"email": "juliette.mackay@example.com",
+		"id": "d39942",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Hunter",
+		"last": "White",
+		"email": "hunter.white@example.com",
+		"id": "f8922",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Mia",
+		"last": "Addy",
+		"email": "mia.addy@example.com",
+		"id": "887115",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Adam",
+		"last": "Barnaby",
+		"email": "adam.barnaby@example.com",
+		"id": "716c83",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Emma",
+		"last": "Barnaby",
+		"email": "emma.barnaby@example.com",
+		"id": "f7e788",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Laurie",
+		"last": "Martin",
+		"email": "laurie.martin@example.com",
+		"id": "b39523",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 3,
+		"isCrew": true
+	},
+	{
+		"first": "Mia",
+		"last": "Gauthier",
+		"email": "mia.gauthier@example.com",
+		"id": "9a4877",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Victor",
+		"last": "Chu",
+		"email": "victor.chu@example.com",
+		"id": "b2df7e",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Marilou",
+		"last": "Scott",
+		"email": "marilou.scott@example.com",
+		"id": "94d5e0",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Annabelle",
+		"last": "Lévesque",
+		"email": "annabelle.lévesque@example.com",
+		"id": "f3910",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Zachary",
+		"last": "Mitchell",
+		"email": "zachary.mitchell@example.com",
+		"id": "abf663",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Ryan",
+		"last": "Lavoie",
+		"email": "ryan.lavoie@example.com",
+		"id": "7f5165",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Elliot",
+		"last": "Lavoie",
+		"email": "elliot.lavoie@example.com",
+		"id": "783c7c",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": true
+	},
+	{
+		"first": "Marilou",
+		"last": "Lo",
+		"email": "marilou.lo@example.com",
+		"id": "988d00",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Camille",
+		"last": "Harcourt",
+		"email": "camille.harcourt@example.com",
+		"id": "892214",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Daniel",
+		"last": "Kowalski",
+		"email": "daniel.kowalski@example.com",
+		"id": "f91b84",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Maxime",
+		"last": "Macdonald",
+		"email": "maxime.macdonald@example.com",
+		"id": "b2a3f7",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Justine",
+		"last": "Gagnon",
+		"email": "justine.gagnon@example.com",
+		"id": "18608c",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Daniel",
+		"last": "Smith",
+		"email": "daniel.smith@example.com",
+		"id": "96578d",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Lucas",
+		"last": "Ross",
+		"email": "lucas.ross@example.com",
+		"id": "21130a",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Charles",
+		"last": "Scott",
+		"email": "charles.scott@example.com",
+		"id": "689b57",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Emile",
+		"last": "Johnson",
+		"email": "emile.johnson@example.com",
+		"id": "b71ff3",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Jeremy",
+		"last": "Clark",
+		"email": "jeremy.clark@example.com",
+		"id": "1899aa",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Juliette",
+		"last": "Claire",
+		"email": "juliette.claire@example.com",
+		"id": "d7fb1f",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Emma",
+		"last": "Singh",
+		"email": "emma.singh@example.com",
+		"id": "3047bf",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Brielle",
+		"last": "Abraham",
+		"email": "brielle.abraham@example.com",
+		"id": "5a8b33",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Hailey",
+		"last": "Gill",
+		"email": "hailey.gill@example.com",
+		"id": "86bf46",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Daniel",
+		"last": "Ambrose",
+		"email": "daniel.ambrose@example.com",
+		"id": "730049",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Beatrice",
+		"last": "Lavoie",
+		"email": "beatrice.lavoie@example.com",
+		"id": "d5881d",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Sarah",
+		"last": "Wilson",
+		"email": "sarah.wilson@example.com",
+		"id": "fd2cd2",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Dominic",
+		"last": "Wilson",
+		"email": "dominic.wilson@example.com",
+		"id": "c275a1",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Elizabeth",
+		"last": "Thompson",
+		"email": "elizabeth.thompson@example.com",
+		"id": "18153f",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Jayden",
+		"last": "Taylor",
+		"email": "jayden.taylor@example.com",
+		"id": "8896c2",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Dylan",
+		"last": "Fortin",
+		"email": "dylan.fortin@example.com",
+		"id": "a4e8d",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Marianne",
+		"last": "Lévesque",
+		"email": "marianne.lévesque@example.com",
+		"id": "81d912",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Amelia",
+		"last": "Chan",
+		"email": "amelia.chan@example.com",
+		"id": "7c9584",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Ava",
+		"last": "Lo",
+		"email": "ava.lo@example.com",
+		"id": "4fa245",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Nicolas",
+		"last": "Young",
+		"email": "nicolas.young@example.com",
+		"id": "36f5f0",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Philip",
+		"last": "Lam",
+		"email": "philip.lam@example.com",
+		"id": "ba1060",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Clara",
+		"last": "Margaret",
+		"email": "clara.margaret@example.com",
+		"id": "eb929e",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Arnaud",
+		"last": "White",
+		"email": "arnaud.white@example.com",
+		"id": "425dfb",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Mason",
+		"last": "Andersen",
+		"email": "mason.andersen@example.com",
+		"id": "5109bb",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Camille",
+		"last": "Denys",
+		"email": "camille.denys@example.com",
+		"id": "111f7",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Xavier",
+		"last": "Lavoie",
+		"email": "xavier.lavoie@example.com",
+		"id": "668c0c",
+		"memberSince": "2017-02-08T07:16:50.208Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Jayden",
+		"last": "Campbell",
+		"email": "jayden.campbell@example.com",
+		"id": "246167",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Liam",
+		"last": "Kowalski",
+		"email": "liam.kowalski@example.com",
+		"id": "3ead0d",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Ryan",
+		"last": "Tremblay",
+		"email": "ryan.tremblay@example.com",
+		"id": "4cb063",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Felix",
+		"last": "Harris",
+		"email": "felix.harris@example.com",
+		"id": "dfd0c5",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Philippe",
+		"last": "Ma",
+		"email": "philippe.ma@example.com",
+		"id": "fc1a4f",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Lucas",
+		"last": "White",
+		"email": "lucas.white@example.com",
+		"id": "aeb0ca",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Nicolas",
+		"last": "Margaret",
+		"email": "nicolas.margaret@example.com",
+		"id": "1e84d2",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Rose",
+		"last": "Williams",
+		"email": "rose.williams@example.com",
+		"id": "3a3da7",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Alexander",
+		"last": "Côté",
+		"email": "alexander.côté@example.com",
+		"id": "6c6de1",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Philip",
+		"last": "Jones",
+		"email": "philip.jones@example.com",
+		"id": "44dfa2",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Sofia",
+		"last": "Smith",
+		"email": "sofia.smith@example.com",
+		"id": "15d2a7",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Sofia",
+		"last": "French",
+		"email": "sofia.french@example.com",
+		"id": "e8efce",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": true
+	},
+	{
+		"first": "Eva",
+		"last": "Wilson",
+		"email": "eva.wilson@example.com",
+		"id": "4fef6b",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Maeva",
+		"last": "Clark",
+		"email": "maeva.clark@example.com",
+		"id": "f0c97a",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Maeva",
+		"last": "Harcourt",
+		"email": "maeva.harcourt@example.com",
+		"id": "9a700f",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "James",
+		"last": "Walker",
+		"email": "james.walker@example.com",
+		"id": "1f0c2b",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Alicia",
+		"last": "Côté",
+		"email": "alicia.côté@example.com",
+		"id": "ffe6bf",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Logan",
+		"last": "Harris",
+		"email": "logan.harris@example.com",
+		"id": "64d299",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Emma",
+		"last": "Addy",
+		"email": "emma.addy@example.com",
+		"id": "d892f8",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Aiden",
+		"last": "Walker",
+		"email": "aiden.walker@example.com",
+		"id": "56b3cc",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Nicolas",
+		"last": "Anderson",
+		"email": "nicolas.anderson@example.com",
+		"id": "e246a0",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Emily",
+		"last": "Patel",
+		"email": "emily.patel@example.com",
+		"id": "8dfe3f",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Simon",
+		"last": "White",
+		"email": "simon.white@example.com",
+		"id": "be4b3",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Dominic",
+		"last": "Harcourt",
+		"email": "dominic.harcourt@example.com",
+		"id": "18a4e",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Mia",
+		"last": "Sirko",
+		"email": "mia.sirko@example.com",
+		"id": "ce4e11",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Melodie",
+		"last": "Kowalski",
+		"email": "melodie.kowalski@example.com",
+		"id": "622edc",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Nicolas",
+		"last": "Tremblay",
+		"email": "nicolas.tremblay@example.com",
+		"id": "6aa9ce",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Madison",
+		"last": "Walker",
+		"email": "madison.walker@example.com",
+		"id": "361c55",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Alexander",
+		"last": "Gill",
+		"email": "alexander.gill@example.com",
+		"id": "dcb722",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Harper",
+		"last": "Chan",
+		"email": "harper.chan@example.com",
+		"id": "15a187",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Amy",
+		"last": "Mitchell",
+		"email": "amy.mitchell@example.com",
+		"id": "3e2ab2",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Mathis",
+		"last": "Denys",
+		"email": "mathis.denys@example.com",
+		"id": "dfe263",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Julia",
+		"last": "Chow",
+		"email": "julia.chow@example.com",
+		"id": "3a8705",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Dylan",
+		"last": "Park",
+		"email": "dylan.park@example.com",
+		"id": "491d97",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Julia",
+		"last": "Roy",
+		"email": "julia.roy@example.com",
+		"id": "a30c3a",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Sofia",
+		"last": "Smith",
+		"email": "sofia.smith@example.com",
+		"id": "f33958",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Arthur",
+		"last": "Gagné",
+		"email": "arthur.gagné@example.com",
+		"id": "942bdf",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Emily",
+		"last": "Kowalski",
+		"email": "emily.kowalski@example.com",
+		"id": "922094",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Aubree",
+		"last": "Patel",
+		"email": "aubree.patel@example.com",
+		"id": "bbc4b8",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": true
+	},
+	{
+		"first": "Jeanne",
+		"last": "Lévesque",
+		"email": "jeanne.lévesque@example.com",
+		"id": "b6c259",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Florence",
+		"last": "Lam",
+		"email": "florence.lam@example.com",
+		"id": "f2e3be",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Eva",
+		"last": "Addy",
+		"email": "eva.addy@example.com",
+		"id": "d710ef",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Ethan",
+		"last": "Young",
+		"email": "ethan.young@example.com",
+		"id": "9eb232",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": true
+	},
+	{
+		"first": "Ava",
+		"last": "Singh",
+		"email": "ava.singh@example.com",
+		"id": "ae3a08",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Adam",
+		"last": "Thompson",
+		"email": "adam.thompson@example.com",
+		"id": "52d9c",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Aubree",
+		"last": "Kowalski",
+		"email": "aubree.kowalski@example.com",
+		"id": "8cfa59",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Florence",
+		"last": "Chow",
+		"email": "florence.chow@example.com",
+		"id": "aff8b7",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Laurie",
+		"last": "Park",
+		"email": "laurie.park@example.com",
+		"id": "abcd05",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Noah",
+		"last": "Bergeron",
+		"email": "noah.bergeron@example.com",
+		"id": "bf31b0",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Harper",
+		"last": "Johnson",
+		"email": "harper.johnson@example.com",
+		"id": "6fa59a",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Olivier",
+		"last": "White",
+		"email": "olivier.white@example.com",
+		"id": "5028b",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Camille",
+		"last": "Scott",
+		"email": "camille.scott@example.com",
+		"id": "eb4393",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Rose",
+		"last": "Miller",
+		"email": "rose.miller@example.com",
+		"id": "8991a0",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Noémie",
+		"last": "Slawa",
+		"email": "noémie.slawa@example.com",
+		"id": "f5fb0b",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Ella",
+		"last": "Fortin",
+		"email": "ella.fortin@example.com",
+		"id": "c14194",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Sophia",
+		"last": "Addy",
+		"email": "sophia.addy@example.com",
+		"id": "bfbb8",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Aubrey",
+		"last": "Denys",
+		"email": "aubrey.denys@example.com",
+		"id": "f0b2b",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Elizabeth",
+		"last": "Lavoie",
+		"email": "elizabeth.lavoie@example.com",
+		"id": "9011f7",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Leo",
+		"last": "Chu",
+		"email": "leo.chu@example.com",
+		"id": "7aa0d7",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Noémie",
+		"last": "French",
+		"email": "noémie.french@example.com",
+		"id": "8dcc5d",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": true
+	},
+	{
+		"first": "Victor",
+		"last": "Macdonald",
+		"email": "victor.macdonald@example.com",
+		"id": "4e630f",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Adam",
+		"last": "Scott",
+		"email": "adam.scott@example.com",
+		"id": "4ee44c",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Liam",
+		"last": "Chan",
+		"email": "liam.chan@example.com",
+		"id": "8bf012",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Justine",
+		"last": "Park",
+		"email": "justine.park@example.com",
+		"id": "69ba75",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Liam",
+		"last": "Macdonald",
+		"email": "liam.macdonald@example.com",
+		"id": "a97341",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Sophie",
+		"last": "Mackay",
+		"email": "sophie.mackay@example.com",
+		"id": "c60dda",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Chloe",
+		"last": "Chow",
+		"email": "chloe.chow@example.com",
+		"id": "9640c2",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Addison",
+		"last": "Liu",
+		"email": "addison.liu@example.com",
+		"id": "2e69d1",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Sarah",
+		"last": "Harcourt",
+		"email": "sarah.harcourt@example.com",
+		"id": "ea919e",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Antoine",
+		"last": "Harris",
+		"email": "antoine.harris@example.com",
+		"id": "6d07a6",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Aubree",
+		"last": "Tremblay",
+		"email": "aubree.tremblay@example.com",
+		"id": "b041ae",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": true
+	},
+	{
+		"first": "Logan",
+		"last": "Gagnon",
+		"email": "logan.gagnon@example.com",
+		"id": "286717",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Etienne",
+		"last": "Ma",
+		"email": "etienne.ma@example.com",
+		"id": "2478bb",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Philippe",
+		"last": "White",
+		"email": "philippe.white@example.com",
+		"id": "541615",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Abigail",
+		"last": "Jean-baptiste",
+		"email": "abigail.jean-baptiste@example.com",
+		"id": "68012e",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Zachary",
+		"last": "Gagné",
+		"email": "zachary.gagné@example.com",
+		"id": "490bb0",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Annabelle",
+		"last": "Mitchell",
+		"email": "annabelle.mitchell@example.com",
+		"id": "615c69",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Maxime",
+		"last": "Patel",
+		"email": "maxime.patel@example.com",
+		"id": "3544b",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Carter",
+		"last": "Lévesque",
+		"email": "carter.lévesque@example.com",
+		"id": "a8ff43",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Ella",
+		"last": "Anderson",
+		"email": "ella.anderson@example.com",
+		"id": "5ccd56",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Alexis",
+		"last": "Walker",
+		"email": "alexis.walker@example.com",
+		"id": "45d772",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Dylan",
+		"last": "Liu",
+		"email": "dylan.liu@example.com",
+		"id": "238c57",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Sophia",
+		"last": "Jones",
+		"email": "sophia.jones@example.com",
+		"id": "5ff49a",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Zachary",
+		"last": "Gagnon",
+		"email": "zachary.gagnon@example.com",
+		"id": "cc075d",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Noah",
+		"last": "Patel",
+		"email": "noah.patel@example.com",
+		"id": "eaf220",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Laurie",
+		"last": "Denys",
+		"email": "laurie.denys@example.com",
+		"id": "3f190a",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": true
+	},
+	{
+		"first": "Amy",
+		"last": "Jones",
+		"email": "amy.jones@example.com",
+		"id": "550cd3",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Aubree",
+		"last": "Macdonald",
+		"email": "aubree.macdonald@example.com",
+		"id": "4336b0",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Felix",
+		"last": "Ennis",
+		"email": "felix.ennis@example.com",
+		"id": "d7ac3e",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Benjamin",
+		"last": "Barnaby",
+		"email": "benjamin.barnaby@example.com",
+		"id": "b78aad",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Marianne",
+		"last": "Kowalski",
+		"email": "marianne.kowalski@example.com",
+		"id": "5f720d",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Benjamin",
+		"last": "Knight",
+		"email": "benjamin.knight@example.com",
+		"id": "7a0e6b",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": true
+	},
+	{
+		"first": "Bently",
+		"last": "Chan",
+		"email": "bently.chan@example.com",
+		"id": "e4b760",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Justin",
+		"last": "Roy",
+		"email": "justin.roy@example.com",
+		"id": "6d9763",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Blake",
+		"last": "Abraham",
+		"email": "blake.abraham@example.com",
+		"id": "2fb218",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Noémie",
+		"last": "Ross",
+		"email": "noémie.ross@example.com",
+		"id": "33e9c8",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Marianne",
+		"last": "French",
+		"email": "marianne.french@example.com",
+		"id": "3215e1",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Noah",
+		"last": "Smith",
+		"email": "noah.smith@example.com",
+		"id": "528c85",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Marianne",
+		"last": "Lavigne",
+		"email": "marianne.lavigne@example.com",
+		"id": "4d23b6",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Bently",
+		"last": "Park",
+		"email": "bently.park@example.com",
+		"id": "af2a6a",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Jacob",
+		"last": "Scott",
+		"email": "jacob.scott@example.com",
+		"id": "f4c3e5",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Leanne",
+		"last": "Gauthier",
+		"email": "leanne.gauthier@example.com",
+		"id": "143fd5",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Malik",
+		"last": "Lavigne",
+		"email": "malik.lavigne@example.com",
+		"id": "bc091",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Aubrey",
+		"last": "Lavoie",
+		"email": "aubrey.lavoie@example.com",
+		"id": "2faac4",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Liam",
+		"last": "Gauthier",
+		"email": "liam.gauthier@example.com",
+		"id": "6c30d6",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": true
+	},
+	{
+		"first": "Isabella",
+		"last": "Mackay",
+		"email": "isabella.mackay@example.com",
+		"id": "7f5e55",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Eva",
+		"last": "Fortin",
+		"email": "eva.fortin@example.com",
+		"id": "fa1078",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Liam",
+		"last": "Patel",
+		"email": "liam.patel@example.com",
+		"id": "baf429",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Lea",
+		"last": "Miller",
+		"email": "lea.miller@example.com",
+		"id": "90f1e1",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Vincent",
+		"last": "Addy",
+		"email": "vincent.addy@example.com",
+		"id": "7ec628",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Hudson",
+		"last": "Williams",
+		"email": "hudson.williams@example.com",
+		"id": "de5b29",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Eva",
+		"last": "Claire",
+		"email": "eva.claire@example.com",
+		"id": "984599",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Lily",
+		"last": "Patel",
+		"email": "lily.patel@example.com",
+		"id": "635883",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Etienne",
+		"last": "Andersen",
+		"email": "etienne.andersen@example.com",
+		"id": "ebf8c9",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 3,
+		"isCrew": true
+	},
+	{
+		"first": "Lucas",
+		"last": "Côté",
+		"email": "lucas.côté@example.com",
+		"id": "7ca450",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Mason",
+		"last": "Lavoie",
+		"email": "mason.lavoie@example.com",
+		"id": "731585",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Marianne",
+		"last": "White",
+		"email": "marianne.white@example.com",
+		"id": "8596f2",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Felix",
+		"last": "Mitchell",
+		"email": "felix.mitchell@example.com",
+		"id": "d65d3d",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Gabrielle",
+		"last": "Campbell",
+		"email": "gabrielle.campbell@example.com",
+		"id": "1d6f0f",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Daniel",
+		"last": "Morin",
+		"email": "daniel.morin@example.com",
+		"id": "84ffea",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 3,
+		"isCrew": true
+	},
+	{
+		"first": "Louis",
+		"last": "Gagné",
+		"email": "louis.gagné@example.com",
+		"id": "70afbc",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Ella",
+		"last": "Bélanger",
+		"email": "ella.bélanger@example.com",
+		"id": "2cc141",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Meetup",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Logan",
+		"last": "Abraham",
+		"email": "logan.abraham@example.com",
+		"id": "3a33d2",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Alicia",
+		"last": "Jean-baptiste",
+		"email": "alicia.jean-baptiste@example.com",
+		"id": "fd8662",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": true
+	},
+	{
+		"first": "Jasmine",
+		"last": "Ginnish",
+		"email": "jasmine.ginnish@example.com",
+		"id": "d23df2",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Amelia",
+		"last": "Roy",
+		"email": "amelia.roy@example.com",
+		"id": "d22a32",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Isabella",
+		"last": "Ambrose",
+		"email": "isabella.ambrose@example.com",
+		"id": "bd2c58",
+		"memberSince": "2017-02-08T07:16:50.209Z",
+		"membershipSource": "Paid",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "James",
+		"last": "Grewal",
+		"email": "james.grewal@example.com",
+		"id": "97df89",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Felix",
+		"last": "Ambrose",
+		"email": "felix.ambrose@example.com",
+		"id": "e1b955",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Nathan",
+		"last": "Slawa",
+		"email": "nathan.slawa@example.com",
+		"id": "6d4310",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": true
+	},
+	{
+		"first": "Emily",
+		"last": "Abraham",
+		"email": "emily.abraham@example.com",
+		"id": "569024",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Marianne",
+		"last": "Margaret",
+		"email": "marianne.margaret@example.com",
+		"id": "9ca3db",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Emile",
+		"last": "Slawa",
+		"email": "emile.slawa@example.com",
+		"id": "8fac6a",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Theo",
+		"last": "Ambrose",
+		"email": "theo.ambrose@example.com",
+		"id": "b09c3",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 3,
+		"isCrew": true
+	},
+	{
+		"first": "Oliver",
+		"last": "Tremblay",
+		"email": "oliver.tremblay@example.com",
+		"id": "6095d",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": true
+	},
+	{
+		"first": "Charles",
+		"last": "Chu",
+		"email": "charles.chu@example.com",
+		"id": "1adc27",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Victor",
+		"last": "Ma",
+		"email": "victor.ma@example.com",
+		"id": "f66a71",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Gabrielle",
+		"last": "Jean-baptiste",
+		"email": "gabrielle.jean-baptiste@example.com",
+		"id": "65e9bb",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Aubree",
+		"last": "Abraham",
+		"email": "aubree.abraham@example.com",
+		"id": "8fd8b1",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "William",
+		"last": "Taylor",
+		"email": "william.taylor@example.com",
+		"id": "fbb806",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Noémie",
+		"last": "Ambrose",
+		"email": "noémie.ambrose@example.com",
+		"id": "3a27cd",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Alicia",
+		"last": "Novak",
+		"email": "alicia.novak@example.com",
+		"id": "438011",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Mathis",
+		"last": "Claire",
+		"email": "mathis.claire@example.com",
+		"id": "3c58f3",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Sophie",
+		"last": "Chu",
+		"email": "sophie.chu@example.com",
+		"id": "d4342",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Bently",
+		"last": "Miller",
+		"email": "bently.miller@example.com",
+		"id": "b5912",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Abigail",
+		"last": "Ross",
+		"email": "abigail.ross@example.com",
+		"id": "ae66e1",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Logan",
+		"last": "Jean-baptiste",
+		"email": "logan.jean-baptiste@example.com",
+		"id": "3864a8",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Elliot",
+		"last": "Bélanger",
+		"email": "elliot.bélanger@example.com",
+		"id": "894cbe",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Leanne",
+		"last": "Margaret",
+		"email": "leanne.margaret@example.com",
+		"id": "a9acf5",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Logan",
+		"last": "Denys",
+		"email": "logan.denys@example.com",
+		"id": "278f7",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Charlotte",
+		"last": "Addy",
+		"email": "charlotte.addy@example.com",
+		"id": "8f9754",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Xavier",
+		"last": "Park",
+		"email": "xavier.park@example.com",
+		"id": "e86a79",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Emma",
+		"last": "Andersen",
+		"email": "emma.andersen@example.com",
+		"id": "73bb8d",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Aubrey",
+		"last": "Chow",
+		"email": "aubrey.chow@example.com",
+		"id": "8d48f8",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Lucas",
+		"last": "Lavigne",
+		"email": "lucas.lavigne@example.com",
+		"id": "98ccfc",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Hannah",
+		"last": "Sirko",
+		"email": "hannah.sirko@example.com",
+		"id": "fc0b28",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Sofia",
+		"last": "Ouellet",
+		"email": "sofia.ouellet@example.com",
+		"id": "7d9af4",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": true
+	},
+	{
+		"first": "Addison",
+		"last": "Park",
+		"email": "addison.park@example.com",
+		"id": "9222e6",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Alexandre",
+		"last": "Walker",
+		"email": "alexandre.walker@example.com",
+		"id": "1052b8",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": true
+	},
+	{
+		"first": "Malik",
+		"last": "Walker",
+		"email": "malik.walker@example.com",
+		"id": "4e8bc6",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": true
+	},
+	{
+		"first": "William",
+		"last": "Novak",
+		"email": "william.novak@example.com",
+		"id": "621bae",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Jade",
+		"last": "Roy",
+		"email": "jade.roy@example.com",
+		"id": "ba3a4b",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Thomas",
+		"last": "Johnson",
+		"email": "thomas.johnson@example.com",
+		"id": "8e36d9",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Noah",
+		"last": "Martin",
+		"email": "noah.martin@example.com",
+		"id": "45f592",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": true
+	},
+	{
+		"first": "Hudson",
+		"last": "Roy",
+		"email": "hudson.roy@example.com",
+		"id": "252060",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Ethan",
+		"last": "Fortin",
+		"email": "ethan.fortin@example.com",
+		"id": "a70817",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Thomas",
+		"last": "Campbell",
+		"email": "thomas.campbell@example.com",
+		"id": "3f1094",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Adam",
+		"last": "Harris",
+		"email": "adam.harris@example.com",
+		"id": "fb39bd",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Etienne",
+		"last": "Li",
+		"email": "etienne.li@example.com",
+		"id": "15ef82",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Noah",
+		"last": "Wilson",
+		"email": "noah.wilson@example.com",
+		"id": "3f1b1d",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Olivier",
+		"last": "Taylor",
+		"email": "olivier.taylor@example.com",
+		"id": "156c43",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Samuel",
+		"last": "Côté",
+		"email": "samuel.côté@example.com",
+		"id": "fa565",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Justin",
+		"last": "Ennis",
+		"email": "justin.ennis@example.com",
+		"id": "681fb8",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Maeva",
+		"last": "French",
+		"email": "maeva.french@example.com",
+		"id": "bf107c",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "James",
+		"last": "Knight",
+		"email": "james.knight@example.com",
+		"id": "695c94",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Jayden",
+		"last": "Jones",
+		"email": "jayden.jones@example.com",
+		"id": "8a623e",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Madison",
+		"last": "Young",
+		"email": "madison.young@example.com",
+		"id": "775b51",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Liam",
+		"last": "Fortin",
+		"email": "liam.fortin@example.com",
+		"id": "a9aa45",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Lucas",
+		"last": "Ouellet",
+		"email": "lucas.ouellet@example.com",
+		"id": "6333a6",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Mia",
+		"last": "Fortin",
+		"email": "mia.fortin@example.com",
+		"id": "419d1c",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Alexandre",
+		"last": "Ambrose",
+		"email": "alexandre.ambrose@example.com",
+		"id": "3ac8a8",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Tristan",
+		"last": "Bergeron",
+		"email": "tristan.bergeron@example.com",
+		"id": "b9b67f",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Lily",
+		"last": "Jones",
+		"email": "lily.jones@example.com",
+		"id": "cf5025",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Brielle",
+		"last": "Gagné",
+		"email": "brielle.gagné@example.com",
+		"id": "a130ac",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Delphine",
+		"last": "Singh",
+		"email": "delphine.singh@example.com",
+		"id": "96298a",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Victoria",
+		"last": "Patel",
+		"email": "victoria.patel@example.com",
+		"id": "aa1e03",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Maxime",
+		"last": "Sirko",
+		"email": "maxime.sirko@example.com",
+		"id": "a175c1",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Tristan",
+		"last": "Gill",
+		"email": "tristan.gill@example.com",
+		"id": "7fc6be",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Alexis",
+		"last": "Harris",
+		"email": "alexis.harris@example.com",
+		"id": "ef39de",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Thomas",
+		"last": "Margaret",
+		"email": "thomas.margaret@example.com",
+		"id": "ee32da",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Alexis",
+		"last": "Thompson",
+		"email": "alexis.thompson@example.com",
+		"id": "b9fb2b",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Dylan",
+		"last": "Roy",
+		"email": "dylan.roy@example.com",
+		"id": "33ecc9",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Alexander",
+		"last": "Chu",
+		"email": "alexander.chu@example.com",
+		"id": "337edc",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Dominic",
+		"last": "Smith",
+		"email": "dominic.smith@example.com",
+		"id": "a92687",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Harper",
+		"last": "Ouellet",
+		"email": "harper.ouellet@example.com",
+		"id": "7948e7",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Victoria",
+		"last": "Park",
+		"email": "victoria.park@example.com",
+		"id": "dc7cd2",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Malik",
+		"last": "Campbell",
+		"email": "malik.campbell@example.com",
+		"id": "c1a6bc",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Hunter",
+		"last": "Denys",
+		"email": "hunter.denys@example.com",
+		"id": "f51670",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Simon",
+		"last": "French",
+		"email": "simon.french@example.com",
+		"id": "a3eab2",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Thomas",
+		"last": "Li",
+		"email": "thomas.li@example.com",
+		"id": "b57220",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Daniel",
+		"last": "Gill",
+		"email": "daniel.gill@example.com",
+		"id": "d8f3cb",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Julia",
+		"last": "Ambrose",
+		"email": "julia.ambrose@example.com",
+		"id": "d24965",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Louis",
+		"last": "Kowalski",
+		"email": "louis.kowalski@example.com",
+		"id": "c42e81",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Zackary",
+		"last": "Anderson",
+		"email": "zackary.anderson@example.com",
+		"id": "614412",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Melodie",
+		"last": "Fortin",
+		"email": "melodie.fortin@example.com",
+		"id": "93a669",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Jeremy",
+		"last": "Ginnish",
+		"email": "jeremy.ginnish@example.com",
+		"id": "793e98",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Ryder",
+		"last": "Ginnish",
+		"email": "ryder.ginnish@example.com",
+		"id": "1e7a57",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Theo",
+		"last": "Bergeron",
+		"email": "theo.bergeron@example.com",
+		"id": "3e9842",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Clara",
+		"last": "Patel",
+		"email": "clara.patel@example.com",
+		"id": "a6f87d",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Zackary",
+		"last": "Ginnish",
+		"email": "zackary.ginnish@example.com",
+		"id": "f7a224",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Alexandre",
+		"last": "Young",
+		"email": "alexandre.young@example.com",
+		"id": "5012ea",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Alice",
+		"last": "Gagnon",
+		"email": "alice.gagnon@example.com",
+		"id": "5dd2a9",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Madison",
+		"last": "Barnaby",
+		"email": "madison.barnaby@example.com",
+		"id": "8896c6",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Jade",
+		"last": "Li",
+		"email": "jade.li@example.com",
+		"id": "61b8cb",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Emma",
+		"last": "Martin",
+		"email": "emma.martin@example.com",
+		"id": "d4736b",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Leo",
+		"last": "Ambrose",
+		"email": "leo.ambrose@example.com",
+		"id": "37a396",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Annabelle",
+		"last": "Campbell",
+		"email": "annabelle.campbell@example.com",
+		"id": "998562",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Emily",
+		"last": "Ma",
+		"email": "emily.ma@example.com",
+		"id": "2a9f00",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Maya",
+		"last": "Liu",
+		"email": "maya.liu@example.com",
+		"id": "f57a7e",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Tristan",
+		"last": "Harris",
+		"email": "tristan.harris@example.com",
+		"id": "4e825c",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Charles",
+		"last": "Novak",
+		"email": "charles.novak@example.com",
+		"id": "ade453",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Rose",
+		"last": "Grewal",
+		"email": "rose.grewal@example.com",
+		"id": "8169bc",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Alexander",
+		"last": "Park",
+		"email": "alexander.park@example.com",
+		"id": "f95cab",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Jeremy",
+		"last": "Lam",
+		"email": "jeremy.lam@example.com",
+		"id": "3d5c7b",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Simon",
+		"last": "Clark",
+		"email": "simon.clark@example.com",
+		"id": "6e1b49",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Alice",
+		"last": "Mitchell",
+		"email": "alice.mitchell@example.com",
+		"id": "43200f",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Beatrice",
+		"last": "Miller",
+		"email": "beatrice.miller@example.com",
+		"id": "944f9f",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Victor",
+		"last": "Andersen",
+		"email": "victor.andersen@example.com",
+		"id": "68c8bf",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Liam",
+		"last": "Gagné",
+		"email": "liam.gagné@example.com",
+		"id": "a155ce",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Brielle",
+		"last": "Lavigne",
+		"email": "brielle.lavigne@example.com",
+		"id": "69f3ef",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Emily",
+		"last": "Abraham",
+		"email": "emily.abraham@example.com",
+		"id": "ee8d7f",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Laurie",
+		"last": "White",
+		"email": "laurie.white@example.com",
+		"id": "de1c58",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Megan",
+		"last": "Liu",
+		"email": "megan.liu@example.com",
+		"id": "d1f724",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Melodie",
+		"last": "Chan",
+		"email": "melodie.chan@example.com",
+		"id": "e768b2",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Elliot",
+		"last": "Singh",
+		"email": "elliot.singh@example.com",
+		"id": "7496f9",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Rose",
+		"last": "Margaret",
+		"email": "rose.margaret@example.com",
+		"id": "c0b3c",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Jeremy",
+		"last": "Walker",
+		"email": "jeremy.walker@example.com",
+		"id": "9c0a25",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Florence",
+		"last": "Gauthier",
+		"email": "florence.gauthier@example.com",
+		"id": "84b72d",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Sarah",
+		"last": "Chu",
+		"email": "sarah.chu@example.com",
+		"id": "a39c7",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Beatrice",
+		"last": "Lavigne",
+		"email": "beatrice.lavigne@example.com",
+		"id": "f0553e",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Laurie",
+		"last": "Singh",
+		"email": "laurie.singh@example.com",
+		"id": "f7be99",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Leanne",
+		"last": "Fortin",
+		"email": "leanne.fortin@example.com",
+		"id": "d49489",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Laurie",
+		"last": "Morin",
+		"email": "laurie.morin@example.com",
+		"id": "bfe000",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Elliot",
+		"last": "Tremblay",
+		"email": "elliot.tremblay@example.com",
+		"id": "d9afff",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": true
+	},
+	{
+		"first": "Mathis",
+		"last": "Addy",
+		"email": "mathis.addy@example.com",
+		"id": "c600ca",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Florence",
+		"last": "Scott",
+		"email": "florence.scott@example.com",
+		"id": "5c1439",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 2,
+		"isCrew": true
+	},
+	{
+		"first": "Samuel",
+		"last": "Clark",
+		"email": "samuel.clark@example.com",
+		"id": "7b1f70",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Bently",
+		"last": "Johnson",
+		"email": "bently.johnson@example.com",
+		"id": "dbb360",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Clara",
+		"last": "Côté",
+		"email": "clara.côté@example.com",
+		"id": "89aedc",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Jeanne",
+		"last": "Claire",
+		"email": "jeanne.claire@example.com",
+		"id": "ef58ab",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Victoria",
+		"last": "Sirko",
+		"email": "victoria.sirko@example.com",
+		"id": "aa0b01",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 3,
+		"isCrew": false
+	},
+	{
+		"first": "Aiden",
+		"last": "Johnson",
+		"email": "aiden.johnson@example.com",
+		"id": "3f917c",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Sophia",
+		"last": "Liu",
+		"email": "sophia.liu@example.com",
+		"id": "f36c35",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": true
+	},
+	{
+		"first": "Beatrice",
+		"last": "Wong",
+		"email": "beatrice.wong@example.com",
+		"id": "e1c61b",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Hudson",
+		"last": "Novak",
+		"email": "hudson.novak@example.com",
+		"id": "b5fd6d",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": true
+	},
+	{
+		"first": "Samuel",
+		"last": "Patel",
+		"email": "samuel.patel@example.com",
+		"id": "2ed1b9",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Avery",
+		"last": "Thompson",
+		"email": "avery.thompson@example.com",
+		"id": "579cc2",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": false
+	},
+	{
+		"first": "Addison",
+		"last": "Barnaby",
+		"email": "addison.barnaby@example.com",
+		"id": "9ff2bc",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Juliette",
+		"last": "Mitchell",
+		"email": "juliette.mitchell@example.com",
+		"id": "b0d316",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Charles",
+		"last": "Bergeron",
+		"email": "charles.bergeron@example.com",
+		"id": "2f4c71",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Meetup",
+		"credits": 1,
+		"isCrew": false
+	},
+	{
+		"first": "Abigail",
+		"last": "Claire",
+		"email": "abigail.claire@example.com",
+		"id": "7eb67",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Ella",
+		"last": "Jean-baptiste",
+		"email": "ella.jean-baptiste@example.com",
+		"id": "73b62f",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	},
+	{
+		"first": "Emile",
+		"last": "Kowalski",
+		"email": "emile.kowalski@example.com",
+		"id": "2b5fe4",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Ceroc",
+		"credits": 2,
+		"isCrew": true
+	},
+	{
+		"first": "Gabriel",
+		"last": "Mitchell",
+		"email": "gabriel.mitchell@example.com",
+		"id": "a65b73",
+		"memberSince": "2017-02-08T07:16:50.210Z",
+		"membershipSource": "Paid",
+		"credits": 0,
+		"isCrew": false
+	}
+]
