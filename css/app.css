@@ -1,0 +1,6 @@
+.hidden {
+    /* Add animation later */
+    display: none;
+    position: absolute;
+    left: -100000rem;
+}
